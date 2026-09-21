@@ -5,7 +5,7 @@ using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
-    private Ballon activeBaloon;
+    public Ballon activeBaloon;
 
     [SerializeField] private int maxHP;
     private float currentHP;
@@ -40,7 +40,7 @@ public class PlayerController : MonoBehaviour
 
     public void OnLaunchBaloon(InputAction.CallbackContext context)
     {
-        if (context.started && GameManager.instance.gameState == GameManager.GameState.Playing)
+        if (context.started && GameManager.instance.gameState == GameManager.GameState.Playing && activeBaloon.state == Ballon.State.forme)
         {
             activeBaloon.launchTarget = ComboManager.instance.GetOtherPlayer(playerID).gameObject.transform.position;
             activeBaloon.state = Ballon.State.launched;

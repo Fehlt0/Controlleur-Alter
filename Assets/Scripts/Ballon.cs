@@ -115,8 +115,10 @@ public class Ballon : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            Debug.Log("jvihrehv");
             PlayerController enemy = other.GetComponent<PlayerController>();
             enemy.LoseLife(inflation);
+            DestroyBaloon();
         }
     }
 }

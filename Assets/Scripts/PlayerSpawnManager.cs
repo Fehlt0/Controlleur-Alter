@@ -32,7 +32,7 @@ public class PlayerSpawnManager : MonoBehaviour
         }
         else if (playerCount == 2)
         {
-            Destroy(ComboManager.instance.player1.gameObject);
+            GameManager.instance.StartGame();
             playerCount = 0;
         }
     }

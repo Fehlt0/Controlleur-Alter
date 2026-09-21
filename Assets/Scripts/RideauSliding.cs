@@ -61,7 +61,7 @@ public class RideauSliding : MonoBehaviour
 
         isClosing = false;
         isTimerRunning = false;
-
+        
         GameManager.instance.gameState = GameManager.GameState.Playing;
     }
 }

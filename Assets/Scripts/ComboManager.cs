@@ -58,7 +58,7 @@ public class ComboManager : MonoBehaviour
     {
         if (player == 0)
         {
-            if (!player1IsInCombo)
+            if (!player1IsInCombo && player1.activeBaloon.state == Ballon.State.gonfle)
             {
                 player1IsInCombo = true;
                 player1StarterCombo = input;
@@ -68,7 +68,7 @@ public class ComboManager : MonoBehaviour
                 }
                 UIManager.instance.SpawnInput(player1ComboToDo, player);
             }
-            else
+            else if(player1.activeBaloon.state == Ballon.State.modele)
             {
                 if (input == player1ComboToDo[player1ComboPlace])
                 {
@@ -87,7 +87,7 @@ public class ComboManager : MonoBehaviour
         }
         else
         {
-            if (!player2IsInCombo)
+            if (!player2IsInCombo && player2.activeBaloon.state == Ballon.State.gonfle)
             {
                 player2IsInCombo = true;
                 player2StarterCombo = input;
@@ -97,7 +97,7 @@ public class ComboManager : MonoBehaviour
                 }
                 UIManager.instance.SpawnInput(player2ComboToDo, player);
             }
-            else
+            else if(player2.activeBaloon.state == Ballon.State.modele)
             {
                 if (input == player2ComboToDo[player2ComboPlace])
                 {
