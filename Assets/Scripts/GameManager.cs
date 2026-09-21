@@ -11,12 +11,21 @@ public class GameManager : MonoBehaviour
             Destroy(this);
         instance = this;
     }
+    
+    public enum GameState
+    {
+        waitingPlayer,
+        Playing,
+    }
+
+    public GameState gameState;
 
     private RideauSliding rideauSliding;
 
     private void Start()
     {
         rideauSliding = GetComponent<RideauSliding>();
+        gameState = GameState.waitingPlayer;
     }
 
     public void StartGame()

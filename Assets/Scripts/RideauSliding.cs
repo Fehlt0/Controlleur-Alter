@@ -40,7 +40,7 @@ public class RideauSliding : MonoBehaviour
 
     private void SlideRideau()
     {
-        float speed = 2f;
+        float speed = 3f;
 
         RideauG.transform.position = Vector3.MoveTowards(RideauG.transform.position, targetGToGo, speed * Time.deltaTime);
         RideauD.transform.position = Vector3.MoveTowards(RideauD.transform.position, targetDToGo, speed * Time.deltaTime);
@@ -60,6 +60,8 @@ public class RideauSliding : MonoBehaviour
         targetDToGo = targetDInit;
 
         isClosing = false;
-        isTimerRunning = false; 
+        isTimerRunning = false;
+
+        GameManager.instance.gameState = GameManager.GameState.Playing;
     }
 }

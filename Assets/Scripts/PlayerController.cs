@@ -40,7 +40,7 @@ public class PlayerController : MonoBehaviour
 
     public void OnLaunchBaloon(InputAction.CallbackContext context)
     {
-        if (context.started)
+        if (context.started && GameManager.instance.gameState == GameManager.GameState.Playing)
         {
             activeBaloon.launchTarget = ComboManager.instance.GetOtherPlayer(playerID).gameObject.transform.position;
             activeBaloon.state = Ballon.State.launched;
@@ -48,7 +48,7 @@ public class PlayerController : MonoBehaviour
     }
     public void OnInteract(InputAction.CallbackContext context)
     {
-        if (context.started)
+        if (context.started && GameManager.instance.gameState == GameManager.GameState.Playing)
         {
             activeBaloon.Gonfler();
         }
@@ -56,7 +56,7 @@ public class PlayerController : MonoBehaviour
     public void OnLeft(InputAction.CallbackContext context)
     {
         
-        if (context.started)
+        if (context.started && GameManager.instance.gameState == GameManager.GameState.Playing)
         {
             if (activeBaloon.state != Ballon.State.forme)
             {
@@ -70,7 +70,7 @@ public class PlayerController : MonoBehaviour
     }
     public void OnUp(InputAction.CallbackContext context)
     {
-        if (context.started)
+        if (context.started && GameManager.instance.gameState == GameManager.GameState.Playing)
         {
             if (activeBaloon.state != Ballon.State.forme)
             {
@@ -84,7 +84,7 @@ public class PlayerController : MonoBehaviour
     }
     public void OnRight(InputAction.CallbackContext context)
     {
-        if (context.started)
+        if (context.started && GameManager.instance.gameState == GameManager.GameState.Playing)
         {
             if (activeBaloon.state != Ballon.State.forme)
             {
@@ -95,5 +95,10 @@ public class PlayerController : MonoBehaviour
                 }
             }
         }
+    }
+
+    private void OnDestroy()
+    {
+        Destroy(activeBaloon.gameObject);
     }
 }
