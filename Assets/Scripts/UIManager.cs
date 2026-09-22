@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -20,6 +21,9 @@ public class UIManager : MonoBehaviour
     
     [SerializeField] private List<Image> comboUIPlayer1;
     [SerializeField] private List<Image> comboUIPlayer2;
+
+    [SerializeField] private Image timerImage;
+    [SerializeField] private List<Sprite> listTimerSprite;
 
     public void SpawnInput(List<int> listInput, int player)
     {
@@ -83,5 +87,26 @@ public class UIManager : MonoBehaviour
                 }
                 break;
         }
+    }
+
+    public void TimerStart()
+    {
+        //le timer se reset a zéro quand est désactivé, donc liste de sprite  :: 1,2,"go",0
+        timerImage.gameObject.SetActive(true);
+        for (int i = 0; i < 3; i++)
+        {
+            StartCoroutine(TimerStarting(i));
+        }
+    }
+
+    private IEnumerator TimerStarting(int time)
+    {
+        yield return new WaitForSeconds(1f);
+        if (time == 3)
+        {
+            timerImage.gameObject.SetActive(false);
+            GameManager.instance.gameState = GameManager.GameState.Playing;
+        }
+        timerImage.sprite = listTimerSprite[time];
     }
 }
