@@ -14,6 +14,16 @@ public class PlayerController : MonoBehaviour
     
     [SerializeField] private Transform baloonSpawnPosition;
     [SerializeField] private Ballon baloonPrefab;
+    
+    private enum PlayerState
+    {
+        noState,
+        jsp,
+        jsp2,
+        jsp3
+    }
+
+    private PlayerState playerState = PlayerState.noState;
 
     private void Start()
     {
@@ -100,5 +110,19 @@ public class PlayerController : MonoBehaviour
     private void OnDestroy()
     {
         Destroy(activeBaloon.gameObject);
+    }
+
+    public void GetEffect(Ballon.BaloonType type)
+    {
+        switch (type)
+        {
+            case Ballon.BaloonType.form1:
+                
+                break;
+            case Ballon.BaloonType.form2:
+                break;
+            case Ballon.BaloonType.form3:
+                break;
+        }
     }
 }
