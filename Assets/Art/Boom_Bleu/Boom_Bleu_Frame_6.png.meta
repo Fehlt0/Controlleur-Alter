@@ -1,0 +1,574 @@
+fileFormatVersion: 2
+guid: 43bad8548dfed644bad8699f60a89ef8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4498770009192260195
+    second: Boom_Bleu_Frame_6_0
+  - first:
+      213: 8711973052020308097
+    second: Boom_Bleu_Frame_6_1
+  - first:
+      213: -1300588708763431195
+    second: Boom_Bleu_Frame_6_2
+  - first:
+      213: 4854982412170647281
+    second: Boom_Bleu_Frame_6_3
+  - first:
+      213: 1394332955556456976
+    second: Boom_Bleu_Frame_6_4
+  - first:
+      213: -6551200852779254648
+    second: Boom_Bleu_Frame_6_5
+  - first:
+      213: 4251835559703694051
+    second: Boom_Bleu_Frame_6_6
+  - first:
+      213: 2752026509560538343
+    second: Boom_Bleu_Frame_6_7
+  - first:
+      213: -2203775402091416757
+    second: Boom_Bleu_Frame_6_8
+  - first:
+      213: 7358040468705974481
+    second: Boom_Bleu_Frame_6_9
+  - first:
+      213: -2839451694048824104
+    second: Boom_Bleu_Frame_6_10
+  - first:
+      213: -4900846012931471304
+    second: Boom_Bleu_Frame_6_11
+  - first:
+      213: -939752236483012115
+    second: Boom_Bleu_Frame_6_12
+  - first:
+      213: -5843754816294321112
+    second: Boom_Bleu_Frame_6_13
+  - first:
+      213: 5447788299239155290
+    second: Boom_Bleu_Frame_6_14
+  - first:
+      213: 784615175312668204
+    second: Boom_Bleu_Frame_6_15
+  - first:
+      213: -1789866115219143563
+    second: Boom_Bleu_Frame_6_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Boom_Bleu_Frame_6_0
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 920
+        width: 77
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 362e514ec77de6e30800000000000000
+      internalID: 4498770009192260195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boom_Bleu_Frame_6_1
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 791
+        width: 365
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1883272355527e870800000000000000
+      internalID: 8711973052020308097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boom_Bleu_Frame_6_2
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 867
+        width: 75
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ee854fc57163fde0800000000000000
+      internalID: -1300588708763431195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boom_Bleu_Frame_6_3
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 358
+        width: 305
+        height: 522
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f65334f7cc506340800000000000000
+      internalID: 4854982412170647281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boom_Bleu_Frame_6_4
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 832
+        width: 37
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01a20928f6aa95310800000000000000
+      internalID: 1394332955556456976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boom_Bleu_Frame_6_5
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 483
+        width: 166
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88c3bddb8857515a0800000000000000
+      internalID: -6551200852779254648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boom_Bleu_Frame_6_6
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 480
+        width: 166
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ea43831aed810b30800000000000000
+      internalID: 4251835559703694051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boom_Bleu_Frame_6_7
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 342
+        width: 302
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e460d29789213620800000000000000
+      internalID: 2752026509560538343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boom_Bleu_Frame_6_8
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 559
+        width: 46
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b43f899a2fd9a61e0800000000000000
+      internalID: -2203775402091416757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boom_Bleu_Frame_6_9
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 517
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d81b2c52d20d1660800000000000000
+      internalID: 7358040468705974481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boom_Bleu_Frame_6_10
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 368
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d4b6537abd3898d0800000000000000
+      internalID: -2839451694048824104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boom_Bleu_Frame_6_11
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 280
+        width: 105
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 838845c5482bcfbb0800000000000000
+      internalID: -4900846012931471304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boom_Bleu_Frame_6_12
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 200
+        width: 334
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de91d87e15455f2f0800000000000000
+      internalID: -939752236483012115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boom_Bleu_Frame_6_13
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 348
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8248c44c4ffc6eea0800000000000000
+      internalID: -5843754816294321112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boom_Bleu_Frame_6_14
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 314
+        width: 117
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a56eda3389e6a9b40800000000000000
+      internalID: 5447788299239155290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boom_Bleu_Frame_6_15
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 208
+        width: 51
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2674e9485383ea00800000000000000
+      internalID: 784615175312668204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boom_Bleu_Frame_6_16
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 223
+        width: 56
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 574cad6504e1927e0800000000000000
+      internalID: -1789866115219143563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Boom_Bleu_Frame_6_0: 4498770009192260195
+      Boom_Bleu_Frame_6_1: 8711973052020308097
+      Boom_Bleu_Frame_6_10: -2839451694048824104
+      Boom_Bleu_Frame_6_11: -4900846012931471304
+      Boom_Bleu_Frame_6_12: -939752236483012115
+      Boom_Bleu_Frame_6_13: -5843754816294321112
+      Boom_Bleu_Frame_6_14: 5447788299239155290
+      Boom_Bleu_Frame_6_15: 784615175312668204
+      Boom_Bleu_Frame_6_16: -1789866115219143563
+      Boom_Bleu_Frame_6_2: -1300588708763431195
+      Boom_Bleu_Frame_6_3: 4854982412170647281
+      Boom_Bleu_Frame_6_4: 1394332955556456976
+      Boom_Bleu_Frame_6_5: -6551200852779254648
+      Boom_Bleu_Frame_6_6: 4251835559703694051
+      Boom_Bleu_Frame_6_7: 2752026509560538343
+      Boom_Bleu_Frame_6_8: -2203775402091416757
+      Boom_Bleu_Frame_6_9: 7358040468705974481
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
