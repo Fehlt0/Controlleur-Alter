@@ -25,7 +25,7 @@ Transform:
   m_GameObject: {fileID: 6588825764485726259}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2, y: 0, z: 0}
+  m_LocalPosition: {x: 2, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -46,7 +46,7 @@ GameObject:
   - component: {fileID: -1335083023406240256}
   - component: {fileID: -3268353020480407802}
   m_Layer: 0
-  m_Name: Player1 1
+  m_Name: Player2
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -318,6 +318,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0db0589faa89dd4f80ec351bb973cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
+  activeBaloon: {fileID: 0}
   maxHP: 100
   playerID: 1
   baloonSpawnPosition: {fileID: 5592595790333649338}
