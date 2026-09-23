@@ -52,6 +52,7 @@ public class PlayerController : MonoBehaviour
         {
             GameManager.instance.WinGame(playerID);
         }
+        UIManager.instance.UpdateLife(currentHP,this);
     }
 
     public void OnLaunchBaloon(InputAction.CallbackContext context)
@@ -71,7 +72,6 @@ public class PlayerController : MonoBehaviour
     }
     public void OnLeft(InputAction.CallbackContext context)
     {
-        
         if (context.started && GameManager.instance.gameState == GameManager.GameState.Playing && playerState != PlayerState.won && playerState != PlayerState.lose)
         {
             if (activeBaloon.state != Ballon.State.forme)

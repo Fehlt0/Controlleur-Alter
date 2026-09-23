@@ -124,15 +124,25 @@ public class UIManager : MonoBehaviour
         }
     }
 
-    public void UpdateLife(int life, PlayerController playerController)
+    public void UpdateLife(float life, PlayerController playerController)
     {
+        float hpLost = 100 - life;
+        if (hpLost <= 0)
+        {
+            hpLost = 0;
+        }
         if (playerController == ComboManager.instance.player1)
         {
-            if (life / player1LifeCount <= 10)
+            for (int i = 0; i < hpLost; i+=10)
             {
-                player1LifeUI[8 - player1LifeCount].sprite = heartEmpty;
-                player1LifeCount--;
-                
+                player1LifeUI[i / 10].sprite = heartEmpty;
+            }
+        }
+        else
+        {
+            for (int i = 0; i < hpLost; i+=10)
+            {
+                player2LifeUI[i / 10].sprite = heartEmpty;
             }
         }
     }
