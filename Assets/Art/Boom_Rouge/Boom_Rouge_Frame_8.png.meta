@@ -1,0 +1,1172 @@
+fileFormatVersion: 2
+guid: 9cf09c5ce1146c240ab88e7c76539711
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7177600604619786410
+    second: Boom_Rouge_Frame_8_0
+  - first:
+      213: 6099530018574426678
+    second: Boom_Rouge_Frame_8_1
+  - first:
+      213: -3060025470925085641
+    second: Boom_Rouge_Frame_8_2
+  - first:
+      213: 6560424612527258625
+    second: Boom_Rouge_Frame_8_3
+  - first:
+      213: 413925643668799614
+    second: Boom_Rouge_Frame_8_4
+  - first:
+      213: 7540559804938574923
+    second: Boom_Rouge_Frame_8_5
+  - first:
+      213: -1796774628906943668
+    second: Boom_Rouge_Frame_8_6
+  - first:
+      213: 6230439996382917561
+    second: Boom_Rouge_Frame_8_7
+  - first:
+      213: -380089928790309880
+    second: Boom_Rouge_Frame_8_8
+  - first:
+      213: 702554229685316799
+    second: Boom_Rouge_Frame_8_9
+  - first:
+      213: 7412517953095792373
+    second: Boom_Rouge_Frame_8_10
+  - first:
+      213: 3690699249842617416
+    second: Boom_Rouge_Frame_8_11
+  - first:
+      213: 5495944855690742676
+    second: Boom_Rouge_Frame_8_12
+  - first:
+      213: -8658726245308317422
+    second: Boom_Rouge_Frame_8_13
+  - first:
+      213: -523725328037316803
+    second: Boom_Rouge_Frame_8_14
+  - first:
+      213: -7992516669202124616
+    second: Boom_Rouge_Frame_8_15
+  - first:
+      213: -6964288918967100459
+    second: Boom_Rouge_Frame_8_16
+  - first:
+      213: -6266697617067613039
+    second: Boom_Rouge_Frame_8_17
+  - first:
+      213: -2969304407682430961
+    second: Boom_Rouge_Frame_8_18
+  - first:
+      213: 8971319018344817364
+    second: Boom_Rouge_Frame_8_19
+  - first:
+      213: -2968407258603038436
+    second: Boom_Rouge_Frame_8_20
+  - first:
+      213: -4212043505249496153
+    second: Boom_Rouge_Frame_8_21
+  - first:
+      213: 9141529866631667846
+    second: Boom_Rouge_Frame_8_22
+  - first:
+      213: 2923423724402797203
+    second: Boom_Rouge_Frame_8_23
+  - first:
+      213: 3029418578782188222
+    second: Boom_Rouge_Frame_8_24
+  - first:
+      213: 4303183120026070987
+    second: Boom_Rouge_Frame_8_25
+  - first:
+      213: -7226647674629765031
+    second: Boom_Rouge_Frame_8_26
+  - first:
+      213: 177225310905094937
+    second: Boom_Rouge_Frame_8_27
+  - first:
+      213: 3228684541309228609
+    second: Boom_Rouge_Frame_8_28
+  - first:
+      213: -9197339206708841220
+    second: Boom_Rouge_Frame_8_29
+  - first:
+      213: -7805046720977510682
+    second: Boom_Rouge_Frame_8_30
+  - first:
+      213: 4773491560045631752
+    second: Boom_Rouge_Frame_8_31
+  - first:
+      213: 3943301717541414029
+    second: Boom_Rouge_Frame_8_32
+  - first:
+      213: -5454971825158095578
+    second: Boom_Rouge_Frame_8_33
+  - first:
+      213: -3160013496625376754
+    second: Boom_Rouge_Frame_8_34
+  - first:
+      213: 1540052464576874765
+    second: Boom_Rouge_Frame_8_35
+  - first:
+      213: -88256455567193592
+    second: Boom_Rouge_Frame_8_36
+  - first:
+      213: 4122938811239524247
+    second: Boom_Rouge_Frame_8_37
+  - first:
+      213: -8740260514910294609
+    second: Boom_Rouge_Frame_8_38
+  - first:
+      213: 5458014483749778614
+    second: Boom_Rouge_Frame_8_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Boom_Rouge_Frame_8_0
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 966
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6573206574a046c90800000000000000
+      internalID: -7177600604619786410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boom_Rouge_Frame_8_1
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 940
+        width: 81
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 632e5f53c32e5a450800000000000000
+      internalID: 6099530018574426678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boom_Rouge_Frame_8_2
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 937
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 734ecd10c0b9885d0800000000000000
+      internalID: -3060025470925085641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boom_Rouge_Frame_8_3
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 924
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10cba6d2d6f4b0b50800000000000000
+      internalID: 6560424612527258625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boom_Rouge_Frame_8_4
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 899
+        width: 38
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e70cd4a0e2f8eb500800000000000000
+      internalID: 413925643668799614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boom_Rouge_Frame_8_5
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 914
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4cd3f4e03375a860800000000000000
+      internalID: 7540559804938574923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boom_Rouge_Frame_8_6
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 810
+        width: 157
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4b3196aef29017e0800000000000000
+      internalID: -1796774628906943668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boom_Rouge_Frame_8_7
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 830
+        width: 88
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b33aca9a28f67650800000000000000
+      internalID: 6230439996382917561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boom_Rouge_Frame_8_8
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 830
+        width: 107
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80400cb3936a9baf0800000000000000
+      internalID: -380089928790309880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boom_Rouge_Frame_8_9
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 859
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbc67df7959ffb900800000000000000
+      internalID: 702554229685316799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boom_Rouge_Frame_8_10
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 740
+        width: 63
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f6fa7d1ecd8ed660800000000000000
+      internalID: 7412517953095792373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boom_Rouge_Frame_8_11
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 803
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84c7bafd96ff73330800000000000000
+      internalID: 3690699249842617416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boom_Rouge_Frame_8_12
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 815
+        width: 94
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49b059c3ab4854c40800000000000000
+      internalID: 5495944855690742676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boom_Rouge_Frame_8_13
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 816
+        width: 94
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 211cb051b5606d780800000000000000
+      internalID: -8658726245308317422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boom_Rouge_Frame_8_14
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 823
+        width: 54
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d37f576c69a5bb8f0800000000000000
+      internalID: -523725328037316803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boom_Rouge_Frame_8_15
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 787
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b0b1de7f60e41190800000000000000
+      internalID: -7992516669202124616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boom_Rouge_Frame_8_16
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 732
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dbd6c76020e95f90800000000000000
+      internalID: -6964288918967100459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boom_Rouge_Frame_8_17
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 697
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 194e5eb38b73809a0800000000000000
+      internalID: -6266697617067613039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boom_Rouge_Frame_8_18
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 695
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f08461e8f59eac6d0800000000000000
+      internalID: -2969304407682430961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boom_Rouge_Frame_8_19
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 596
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d226277d17808c70800000000000000
+      internalID: 8971319018344817364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boom_Rouge_Frame_8_20
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 563
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c19564a53591ec6d0800000000000000
+      internalID: -2968407258603038436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boom_Rouge_Frame_8_21
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 537
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a3dc139fb0db85c0800000000000000
+      internalID: -4212043505249496153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boom_Rouge_Frame_8_22
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 453
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6806434dafc3dde70800000000000000
+      internalID: 9141529866631667846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boom_Rouge_Frame_8_23
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 418
+        width: 93
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39a6afc6366129820800000000000000
+      internalID: 2923423724402797203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boom_Rouge_Frame_8_24
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 432
+        width: 56
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb2f7489528aa0a20800000000000000
+      internalID: 3029418578782188222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boom_Rouge_Frame_8_25
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 377
+        width: 85
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcf6c989f3af7bb30800000000000000
+      internalID: 4303183120026070987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boom_Rouge_Frame_8_26
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 445
+        width: 65
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9584ac47a3ac5bb90800000000000000
+      internalID: -7226647674629765031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boom_Rouge_Frame_8_27
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 383
+        width: 120
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 913d4b53b71a57200800000000000000
+      internalID: 177225310905094937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boom_Rouge_Frame_8_28
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 421
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1461888eb779ecc20800000000000000
+      internalID: 3228684541309228609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boom_Rouge_Frame_8_29
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 406
+        width: 91
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf4b85998bc7c5080800000000000000
+      internalID: -9197339206708841220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boom_Rouge_Frame_8_30
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 405
+        width: 82
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eedec43c57eea390800000000000000
+      internalID: -7805046720977510682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boom_Rouge_Frame_8_31
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 379
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80958d66849de3240800000000000000
+      internalID: 4773491560045631752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boom_Rouge_Frame_8_32
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 291
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d846e34050c69b630800000000000000
+      internalID: 3943301717541414029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boom_Rouge_Frame_8_33
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 270
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62dffa5d60c0c44b0800000000000000
+      internalID: -5454971825158095578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boom_Rouge_Frame_8_34
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 293
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e025430a7706524d0800000000000000
+      internalID: -3160013496625376754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boom_Rouge_Frame_8_35
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 222
+        width: 58
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d09c1969e8d5f5510800000000000000
+      internalID: 1540052464576874765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boom_Rouge_Frame_8_36
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 236
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80a48c4a83376cef0800000000000000
+      internalID: -88256455567193592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boom_Rouge_Frame_8_37
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 252
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7976a9a210f973930800000000000000
+      internalID: 4122938811239524247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boom_Rouge_Frame_8_38
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 211
+        width: 20
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fad266c9e5b54b680800000000000000
+      internalID: -8740260514910294609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boom_Rouge_Frame_8_39
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 221
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b4b7d25143cebb40800000000000000
+      internalID: 5458014483749778614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Boom_Rouge_Frame_8_0: -7177600604619786410
+      Boom_Rouge_Frame_8_1: 6099530018574426678
+      Boom_Rouge_Frame_8_10: 7412517953095792373
+      Boom_Rouge_Frame_8_11: 3690699249842617416
+      Boom_Rouge_Frame_8_12: 5495944855690742676
+      Boom_Rouge_Frame_8_13: -8658726245308317422
+      Boom_Rouge_Frame_8_14: -523725328037316803
+      Boom_Rouge_Frame_8_15: -7992516669202124616
+      Boom_Rouge_Frame_8_16: -6964288918967100459
+      Boom_Rouge_Frame_8_17: -6266697617067613039
+      Boom_Rouge_Frame_8_18: -2969304407682430961
+      Boom_Rouge_Frame_8_19: 8971319018344817364
+      Boom_Rouge_Frame_8_2: -3060025470925085641
+      Boom_Rouge_Frame_8_20: -2968407258603038436
+      Boom_Rouge_Frame_8_21: -4212043505249496153
+      Boom_Rouge_Frame_8_22: 9141529866631667846
+      Boom_Rouge_Frame_8_23: 2923423724402797203
+      Boom_Rouge_Frame_8_24: 3029418578782188222
+      Boom_Rouge_Frame_8_25: 4303183120026070987
+      Boom_Rouge_Frame_8_26: -7226647674629765031
+      Boom_Rouge_Frame_8_27: 177225310905094937
+      Boom_Rouge_Frame_8_28: 3228684541309228609
+      Boom_Rouge_Frame_8_29: -9197339206708841220
+      Boom_Rouge_Frame_8_3: 6560424612527258625
+      Boom_Rouge_Frame_8_30: -7805046720977510682
+      Boom_Rouge_Frame_8_31: 4773491560045631752
+      Boom_Rouge_Frame_8_32: 3943301717541414029
+      Boom_Rouge_Frame_8_33: -5454971825158095578
+      Boom_Rouge_Frame_8_34: -3160013496625376754
+      Boom_Rouge_Frame_8_35: 1540052464576874765
+      Boom_Rouge_Frame_8_36: -88256455567193592
+      Boom_Rouge_Frame_8_37: 4122938811239524247
+      Boom_Rouge_Frame_8_38: -8740260514910294609
+      Boom_Rouge_Frame_8_39: 5458014483749778614
+      Boom_Rouge_Frame_8_4: 413925643668799614
+      Boom_Rouge_Frame_8_5: 7540559804938574923
+      Boom_Rouge_Frame_8_6: -1796774628906943668
+      Boom_Rouge_Frame_8_7: 6230439996382917561
+      Boom_Rouge_Frame_8_8: -380089928790309880
+      Boom_Rouge_Frame_8_9: 702554229685316799
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,444 @@
+fileFormatVersion: 2
+guid: c3b974ab211ecf046bcf9cdaf6a9ba8f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6247685413784231165
+    second: Win_Rouge_Frame_1_0
+  - first:
+      213: 4113925772873503241
+    second: Win_Rouge_Frame_1_1
+  - first:
+      213: -133536950153535519
+    second: Win_Rouge_Frame_1_2
+  - first:
+      213: 2400219959034069210
+    second: Win_Rouge_Frame_1_3
+  - first:
+      213: -4010294531246566655
+    second: Win_Rouge_Frame_1_4
+  - first:
+      213: 4921742805292591368
+    second: Win_Rouge_Frame_1_5
+  - first:
+      213: 4775195571245546261
+    second: Win_Rouge_Frame_1_6
+  - first:
+      213: -7114192004376650122
+    second: Win_Rouge_Frame_1_7
+  - first:
+      213: 2129936861235658048
+    second: Win_Rouge_Frame_1_8
+  - first:
+      213: 9076164074490226230
+    second: Win_Rouge_Frame_1_9
+  - first:
+      213: 5742576764555253207
+    second: Win_Rouge_Frame_1_10
+  - first:
+      213: 366251194659544705
+    second: Win_Rouge_Frame_1_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Win_Rouge_Frame_1_0
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 773
+        width: 141
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfc9ffc38cc34b650800000000000000
+      internalID: 6247685413784231165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win_Rouge_Frame_1_1
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 775
+        width: 134
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9021374a1b9971930800000000000000
+      internalID: 4113925772873503241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win_Rouge_Frame_1_2
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 774
+        width: 156
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ef95b1f9d4952ef0800000000000000
+      internalID: -133536950153535519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win_Rouge_Frame_1_3
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 775
+        width: 132
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad04709f55b4f4120800000000000000
+      internalID: 2400219959034069210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win_Rouge_Frame_1_4
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 776
+        width: 141
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1035b5c0f529858c0800000000000000
+      internalID: -4010294531246566655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win_Rouge_Frame_1_5
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 771
+        width: 113
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 809ac41410b8d4440800000000000000
+      internalID: 4921742805292591368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win_Rouge_Frame_1_6
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 772
+        width: 379
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51bfb1d6217e44240800000000000000
+      internalID: 4775195571245546261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win_Rouge_Frame_1_7
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 477
+        width: 308
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67e943b8010554d90800000000000000
+      internalID: -7114192004376650122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win_Rouge_Frame_1_8
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 470
+        width: 85
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04d36f75a4e0f8d10800000000000000
+      internalID: 2129936861235658048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win_Rouge_Frame_1_9
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 472
+        width: 175
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 636e62f532305fd70800000000000000
+      internalID: 9076164074490226230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win_Rouge_Frame_1_10
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 509
+        width: 45
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d55ab2542bb1bf40800000000000000
+      internalID: 5742576764555253207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win_Rouge_Frame_1_11
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 469
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18e9e34658f251500800000000000000
+      internalID: 366251194659544705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Win_Rouge_Frame_1_0: 6247685413784231165
+      Win_Rouge_Frame_1_1: 4113925772873503241
+      Win_Rouge_Frame_1_10: 5742576764555253207
+      Win_Rouge_Frame_1_11: 366251194659544705
+      Win_Rouge_Frame_1_2: -133536950153535519
+      Win_Rouge_Frame_1_3: 2400219959034069210
+      Win_Rouge_Frame_1_4: -4010294531246566655
+      Win_Rouge_Frame_1_5: 4921742805292591368
+      Win_Rouge_Frame_1_6: 4775195571245546261
+      Win_Rouge_Frame_1_7: -7114192004376650122
+      Win_Rouge_Frame_1_8: 2129936861235658048
+      Win_Rouge_Frame_1_9: 9076164074490226230
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
