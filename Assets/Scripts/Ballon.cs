@@ -12,7 +12,7 @@ public class Ballon : MonoBehaviour
 
     private SpriteRenderer spriteRenderer;
     
-    private enum BaloonType
+    public enum BaloonType
     {
         basic,
         form1,
@@ -113,11 +113,11 @@ public class Ballon : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player") && state == State.launched)
         {
             Debug.Log("jvihrehv");
             PlayerController enemy = other.GetComponent<PlayerController>();
-            enemy.LoseLife(inflation);
+            enemy.LoseLife(1000);
             DestroyBaloon();
         }
     }

@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -21,9 +22,20 @@ public class UIManager : MonoBehaviour
     
     [SerializeField] private List<Image> comboUIPlayer1;
     [SerializeField] private List<Image> comboUIPlayer2;
+    [SerializeField] private List<Image> player1LifeUI;
+    [SerializeField] private List<Image> player2LifeUI;
+    private int player1LifeCount;
+    private int player2LifeCount;
+    [SerializeField] private Sprite heartFilled;
+    [SerializeField] private Sprite heartEmpty;
 
+    
     [SerializeField] private Image timerImage;
     [SerializeField] private List<Sprite> listTimerSprite;
+
+    [SerializeField] private Image player1Win;
+    [SerializeField] private Image player2Win;
+
 
     public void SpawnInput(List<int> listInput, int player)
     {
@@ -93,20 +105,58 @@ public class UIManager : MonoBehaviour
     {
         //le timer se reset a zéro quand est désactivé, donc liste de sprite  :: 1,2,"go",0
         timerImage.gameObject.SetActive(true);
-        for (int i = 0; i < 3; i++)
+        
+        StartCoroutine(TimerStarting());
+    }
+
+    private IEnumerator TimerStarting()
+    {
+        for (int i = 0; i < 4; i++)
         {
-            StartCoroutine(TimerStarting(i));
+            if (i == 3)
+            {
+                timerImage.gameObject.SetActive(false);
+                GameManager.instance.gameState = GameManager.GameState.Playing;
+            }
+            timerImage.sprite = listTimerSprite[i];
+        
+            yield return new WaitForSeconds(1f);
         }
     }
 
-    private IEnumerator TimerStarting(int time)
+    public void UpdateLife(int life, PlayerController playerController)
     {
-        yield return new WaitForSeconds(1f);
-        if (time == 3)
+        if (playerController == ComboManager.instance.player1)
         {
-            timerImage.gameObject.SetActive(false);
-            GameManager.instance.gameState = GameManager.GameState.Playing;
+            if (life / player1LifeCount <= 10)
+            {
+                player1LifeUI[8 - player1LifeCount].sprite = heartEmpty;
+                player1LifeCount--;
+                
+            }
         }
-        timerImage.sprite = listTimerSprite[time];
+    }
+
+    public void WinUIDisplay(int player)
+    {
+        switch (player)
+        {
+            case 0:
+                player2Win.gameObject.SetActive(true);
+                StartCoroutine(WinTimer());
+                break;
+            case 1:
+                player1Win.gameObject.SetActive(true);
+                StartCoroutine(WinTimer());
+                break;
+        }
+    }
+
+    private IEnumerator WinTimer()
+    {
+        yield return new WaitForSeconds(5f);
+        player2Win.gameObject.SetActive(false);
+        player1Win.gameObject.SetActive(false);
+        GameManager.instance.RestartGame();
     }
 }

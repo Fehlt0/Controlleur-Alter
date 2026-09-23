@@ -7,6 +7,7 @@ public class PlayerSpawnManager : MonoBehaviour
 {
     private PlayerInputManager inputManager;
 
+    [SerializeField] private GameObject player1;
     [SerializeField] private GameObject player2;
     
     [SerializeField] private List<Transform> positionList;
@@ -34,6 +35,7 @@ public class PlayerSpawnManager : MonoBehaviour
         {
             GameManager.instance.StartGame();
             playerCount = 0;
+            inputManager.playerPrefab = player1;
         }
     }
 }
