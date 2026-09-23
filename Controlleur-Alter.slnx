@@ -1,0 +1,8 @@
+﻿<Solution>
+  <Project Path="Unity.Media.Osc.csproj" />
+  <Project Path="Unity.Media.Osc.Components.csproj" />
+  <Project Path="Assembly-CSharp.csproj" />
+  <Project Path="Unity.Media.Osc.Editor.csproj" />
+  <Project Path="Unity.Media.Osc.Net.csproj" />
+  <Project Path="Unity.2D.Welcome.csproj" />
+</Solution>
