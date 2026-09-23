@@ -33,6 +33,10 @@ public class UIManager : MonoBehaviour
     [SerializeField] private Image timerImage;
     [SerializeField] private List<Sprite> listTimerSprite;
 
+    [SerializeField] private Image player1Win;
+    [SerializeField] private Image player2Win;
+
+
     public void SpawnInput(List<int> listInput, int player)
     {
         List<Image> listToSpawn = new List<Image>();
@@ -131,5 +135,28 @@ public class UIManager : MonoBehaviour
                 
             }
         }
+    }
+
+    public void WinUIDisplay(int player)
+    {
+        switch (player)
+        {
+            case 0:
+                player2Win.gameObject.SetActive(true);
+                StartCoroutine(WinTimer());
+                break;
+            case 1:
+                player1Win.gameObject.SetActive(true);
+                StartCoroutine(WinTimer());
+                break;
+        }
+    }
+
+    private IEnumerator WinTimer()
+    {
+        yield return new WaitForSeconds(5f);
+        player2Win.gameObject.SetActive(false);
+        player1Win.gameObject.SetActive(false);
+        GameManager.instance.RestartGame();
     }
 }

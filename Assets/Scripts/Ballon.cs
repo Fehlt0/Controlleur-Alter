@@ -117,7 +117,7 @@ public class Ballon : MonoBehaviour
         {
             Debug.Log("jvihrehv");
             PlayerController enemy = other.GetComponent<PlayerController>();
-            enemy.LoseLife(inflation);
+            enemy.LoseLife(1000);
             DestroyBaloon();
         }
     }
