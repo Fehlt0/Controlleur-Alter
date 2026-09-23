@@ -302,7 +302,7 @@ MonoBehaviour:
     m_ActionId: 88a97cd4-e567-4fdf-a28e-8284d4e7bb25
     m_ActionName: 'Player/Up[/XInputControllerWindows/dpad/up,/Keyboard/upArrow]'
   m_NeverAutoSwitchControlSchemes: 1
-  m_DefaultControlScheme: Keyboard&Mouse
+  m_DefaultControlScheme: 
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
@@ -318,6 +318,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0db0589faa89dd4f80ec351bb973cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
+  activeBaloon: {fileID: 0}
   maxHP: 100
   playerID: 0
   baloonSpawnPosition: {fileID: 5592595790333649338}
