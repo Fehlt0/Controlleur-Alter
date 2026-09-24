@@ -1,0 +1,222 @@
+fileFormatVersion: 2
+guid: 02f8e3e93df626a43a1a73ace248e7be
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1549823686634300731
+    second: Boom_Rouge_Frame_6_0
+  - first:
+      213: 4501287575326458097
+    second: Boom_Rouge_Frame_6_1
+  - first:
+      213: 6764284936129508987
+    second: Boom_Rouge_Frame_6_2
+  - first:
+      213: -2171661381667813351
+    second: Boom_Rouge_Frame_6_3
+  - first:
+      213: 4512530489354102072
+    second: Boom_Rouge_Frame_6_4
+  - first:
+      213: -4541477116624173380
+    second: Boom_Rouge_Frame_6_5
+  - first:
+      213: 4460963845834970370
+    second: Boom_Rouge_Frame_6_6
+  - first:
+      213: -2815853043374230475
+    second: Boom_Rouge_Frame_6_7
+  - first:
+      213: -5975258277625142389
+    second: Boom_Rouge_Frame_6_8
+  - first:
+      213: -1754374149043751888
+    second: Boom_Rouge_Frame_6_9
+  - first:
+      213: -4010765917359993455
+    second: Boom_Rouge_Frame_6_10
+  - first:
+      213: 8916303799409254104
+    second: Boom_Rouge_Frame_6_11
+  - first:
+      213: -1242899022515119619
+    second: Boom_Rouge_Frame_6_12
+  - first:
+      213: 6251584013871684422
+    second: Boom_Rouge_Frame_6_13
+  - first:
+      213: 3453958681361653760
+    second: Boom_Rouge_Frame_6_14
+  - first:
+      213: -2347189518358661757
+    second: Boom_Rouge_Frame_6_15
+  - first:
+      213: -8114257384923398187
+    second: Boom_Rouge_Frame_6_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Boom_Rouge_Frame_6_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1032
+        height: 1032
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38536b9a19b1d6fd0800000000000000
+      internalID: -2347189518358661757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: f351107aca4c99540a0796f2d8bfda29
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Boom_Rouge_Frame_6_0: 1549823686634300731
+      Boom_Rouge_Frame_6_1: 4501287575326458097
+      Boom_Rouge_Frame_6_10: -4010765917359993455
+      Boom_Rouge_Frame_6_11: 8916303799409254104
+      Boom_Rouge_Frame_6_12: -1242899022515119619
+      Boom_Rouge_Frame_6_13: 6251584013871684422
+      Boom_Rouge_Frame_6_14: 3453958681361653760
+      Boom_Rouge_Frame_6_15: -2347189518358661757
+      Boom_Rouge_Frame_6_16: -8114257384923398187
+      Boom_Rouge_Frame_6_2: 6764284936129508987
+      Boom_Rouge_Frame_6_3: -2171661381667813351
+      Boom_Rouge_Frame_6_4: 4512530489354102072
+      Boom_Rouge_Frame_6_5: -4541477116624173380
+      Boom_Rouge_Frame_6_6: 4460963845834970370
+      Boom_Rouge_Frame_6_7: -2815853043374230475
+      Boom_Rouge_Frame_6_8: -5975258277625142389
+      Boom_Rouge_Frame_6_9: -1754374149043751888
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
