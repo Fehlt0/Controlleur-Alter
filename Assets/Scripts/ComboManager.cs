@@ -72,7 +72,7 @@ public class ComboManager : MonoBehaviour
             {
                 if (input == player1ComboToDo[player1ComboPlace])
                 {
-                    UIManager.instance.UpdateInput(player1ComboPlace, player);
+                    UIManager.instance.UpdateInput(player1ComboPlace, player, input);
                     player1ComboPlace++;
                     if (player1ComboPlace == player1ComboToDo.Count)
                     {
@@ -101,7 +101,7 @@ public class ComboManager : MonoBehaviour
             {
                 if (input == player2ComboToDo[player2ComboPlace])
                 {
-                    UIManager.instance.UpdateInput(player2ComboPlace, player);
+                    UIManager.instance.UpdateInput(player2ComboPlace, player, input);
                     player2ComboPlace++;
                     if (player2ComboPlace == player2ComboToDo.Count)
                     {

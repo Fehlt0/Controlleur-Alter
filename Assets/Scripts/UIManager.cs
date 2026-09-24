@@ -18,7 +18,9 @@ public class UIManager : MonoBehaviour
     public List<Sprite> listFleche; //fleche gauche = 0; fleche up = 1; fleche right = 2
 
     [SerializeField] private Sprite noComboImage;
-    [SerializeField] private Sprite finishedComboImage;
+    [SerializeField] private List<Sprite> finishedComboImagePlayer1;
+    [SerializeField] private List<Sprite> finishedComboImagePlayer2;
+
     
     [SerializeField] private List<Image> comboUIPlayer1;
     [SerializeField] private List<Image> comboUIPlayer2;
@@ -69,15 +71,15 @@ public class UIManager : MonoBehaviour
         }
     }
 
-    public void UpdateInput(int input, int player)
+    public void UpdateInput(int input, int player, int PlayerInput)
     {
         switch (player)
         {
             case 0:
-                comboUIPlayer1[input].sprite = finishedComboImage;
+                comboUIPlayer1[input].sprite = finishedComboImagePlayer1[PlayerInput];
                 break;
             case 1:
-                comboUIPlayer2[input].sprite = finishedComboImage;
+                comboUIPlayer2[input].sprite = finishedComboImagePlayer2[PlayerInput];
                 break;
         }
     }
