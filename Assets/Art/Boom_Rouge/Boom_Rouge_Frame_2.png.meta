@@ -127,81 +127,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Boom_Rouge_Frame_2_0
-      rect:
-        serializedVersion: 2
-        x: 285
-        y: 388
-        width: 448
-        height: 458
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: de4d5701decc3f4c0800000000000000
-      internalID: -4254831904379513619
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Boom_Rouge_Frame_2_1
-      rect:
-        serializedVersion: 2
-        x: 340
-        y: 773
-        width: 63
-        height: 117
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 938ab1c492233b9a0800000000000000
-      internalID: -6218571507516594119
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Boom_Rouge_Frame_2_2
-      rect:
-        serializedVersion: 2
-        x: 688
-        y: 751
-        width: 90
-        height: 108
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1b888cc4769cff820800000000000000
-      internalID: 2954301326085359793
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Boom_Rouge_Frame_2_3
       rect:
         serializedVersion: 2
-        x: 265
-        y: 369
-        width: 78
-        height: 101
+        x: 0
+        y: 0
+        width: 1032
+        height: 1032
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -214,33 +148,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Boom_Rouge_Frame_2_4
-      rect:
-        serializedVersion: 2
-        x: 607
-        y: 338
-        width: 97
-        height: 112
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cb9b8ca2179153d40800000000000000
-      internalID: 5563380888525912508
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 59bd2f910fce33b4db49910dcd2d2923
     internalID: 0
     vertices: []
     indices: 
