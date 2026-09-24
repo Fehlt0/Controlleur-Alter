@@ -10,7 +10,6 @@ public class RideauSliding : MonoBehaviour
     private Vector3 targetDInit;
     private Vector3 targetGToGo;
     private Vector3 targetDToGo;
-    private Animator animator;
     [SerializeField] private GameObject RideauG;
     [SerializeField] private GameObject RideauD;
     private bool isClosing = false;
@@ -36,7 +35,8 @@ public class RideauSliding : MonoBehaviour
         targetDToGo = targetD.position;
         isClosing = true;
         isTimerRunning = false;
-        gameManager.animator.SetBool("IsClosing", true);
+        //ici
+
     }
 
     private void SlideRideau()
@@ -63,7 +63,7 @@ public class RideauSliding : MonoBehaviour
         isClosing = false;
         isTimerRunning = false;
         //ici
-        gameManager.animator.SetBool("IsClosing", false);
+        gameManager.animator.SetBool("IsClosing", true);
         if (GameManager.instance.gameState == GameManager.GameState.waitingPlayer)
         {
             UIManager.instance.TimerStart();

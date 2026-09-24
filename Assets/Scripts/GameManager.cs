@@ -5,7 +5,6 @@ public class GameManager : MonoBehaviour
 {
     public Animator animator;
     public static GameManager instance;
-    
 
     private void Awake()
     {
@@ -29,12 +28,16 @@ public class GameManager : MonoBehaviour
     {
         rideauSliding = GetComponent<RideauSliding>();
         gameState = GameState.waitingPlayer;
-        animator = GetComponent<Animator>();
+        if (animator == null)
+        {
+            animator = GetComponentInChildren<Animator>();
+        }
     }
 
     public void StartGame()
     {
         rideauSliding.SwitchTargetToCenter();
+        animator.SetBool("IsClosing", false);
     }
 
     public void WinGame(int player)
