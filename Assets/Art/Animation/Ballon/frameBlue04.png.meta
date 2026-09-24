@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: a45a9e730de316142ae2007a7cc3f744
+guid: 03343d4722384454ab5fcb8eb261de84
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4113007595582821438
-    second: ballon3_0
+      213: 1856950189141989875
+    second: frameBlue04_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -98,17 +98,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ballon3_0
+      name: frameBlue04_0
       rect:
         serializedVersion: 2
-        x: 42
-        y: 273
-        width: 500
-        height: 270
+        x: 641
+        y: 74
+        width: 543
+        height: 562
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -117,8 +130,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2cb6dca2269abe6c0800000000000000
-      internalID: -4113007595582821438
+      spriteID: 3f91765cb5635c910800000000000000
+      internalID: 1856950189141989875
       vertices: []
       indices: 
       edges: []
@@ -137,7 +150,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ballon3_0: -4113007595582821438
+      frameBlue04_0: 1856950189141989875
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

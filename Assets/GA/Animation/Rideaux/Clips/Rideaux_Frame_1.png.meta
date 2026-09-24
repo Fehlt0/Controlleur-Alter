@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: a34ae25680722634ab82f8645caa69fb
+guid: 0bc4655b1e3edbe45b1008e5df71ac90
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8400621274806335471
-    second: ballon1_0
+      213: 7738382759618748357
+    second: Rideaux_Frame_1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -102,13 +102,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ballon1_0
+      name: Rideaux_Frame_1_0
       rect:
         serializedVersion: 2
-        x: 488
-        y: 576
-        width: 258
-        height: 415
+        x: 0
+        y: 0
+        width: 1920
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -117,8 +117,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fe7bb618a80059470800000000000000
-      internalID: 8400621274806335471
+      spriteID: 5cf1513ce12446b60800000000000000
+      internalID: 7738382759618748357
       vertices: []
       indices: 
       edges: []
@@ -137,7 +137,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ballon1_0: 8400621274806335471
+      Rideaux_Frame_1_0: 7738382759618748357
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

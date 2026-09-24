@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: b83ba94e6cfcaa140bceefb67b0a9e9a
+guid: d6f0d85ac82f72047b5b3dfe60ff2e59
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -282481449073367094
-    second: frameBlue00_0
+      213: -6883074786404865907
+    second: Rideaux_Frame_6_0
+  - first:
+      213: -2482802974072317681
+    second: Rideaux_Frame_6_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -98,40 +101,27 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: frameBlue00_0
+      name: Rideaux_Frame_6_0
       rect:
         serializedVersion: 2
-        x: 397
-        y: 152
-        width: 218
-        height: 488
-      alignment: 9
-      pivot: {x: 0.017449195, y: 0.004526889}
+        x: 0
+        y: 0
+        width: 1920
+        height: 1079
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ac728546e9c641cf0800000000000000
-      internalID: -282481449073367094
+      spriteID: d88e3e923f76a70a0800000000000000
+      internalID: -6883074786404865907
       vertices: []
       indices: 
       edges: []
@@ -140,7 +130,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 05be2507e3818524aafbc72690d56fb9
+    spriteID: 6ae25d00f0b6f24448eb3ef7b0e8f86f
     internalID: 0
     vertices: []
     indices: 
@@ -150,7 +140,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      frameBlue00_0: -282481449073367094
+      Rideaux_Frame_6_0: -6883074786404865907
+      Rideaux_Frame_6_1: -2482802974072317681
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

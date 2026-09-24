@@ -109,10 +109,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Ballon
   playerRef: {fileID: 0}
   spritesBaloon:
-  - {fileID: 8400621274806335471, guid: a34ae25680722634ab82f8645caa69fb, type: 3}
-  - {fileID: 7846774084428695087, guid: dfe50eafdad23574b90664f1b5912854, type: 3}
-  - {fileID: -4113007595582821438, guid: a45a9e730de316142ae2007a7cc3f744, type: 3}
-  spriteBaloonGonfle: []
+  - {fileID: -5142840990626629552, guid: 0b4fc55f20ba12f41bf511464c9edad5, type: 3}
+  - {fileID: 8504883195135373499, guid: 0b4fc55f20ba12f41bf511464c9edad5, type: 3}
+  - {fileID: 2878311640646176475, guid: 0b4fc55f20ba12f41bf511464c9edad5, type: 3}
+  spriteBaloonGonfle:
+  - {fileID: -282481449073367094, guid: bbab94b396c72b3419b44a19f7751aee, type: 3}
+  - {fileID: 4778056131439004470, guid: 5eed3a8feb493a54d97ebdf09bbce634, type: 3}
+  - {fileID: 8230356979341214886, guid: 78c10d3a70e2da34eb34c8ce4c3a4bc7, type: 3}
+  - {fileID: 4364225944608542229, guid: 1fa4bf88d83bbfe438dcc840323dd893, type: 3}
+  - {fileID: 1856950189141989875, guid: 03343d4722384454ab5fcb8eb261de84, type: 3}
+  - {fileID: 7831878577080327472, guid: 318e6489e4ffa7749831edfc2a566d1b, type: 3}
   state: 0
   launchTarget: {x: 0, y: 0, z: 0}
 --- !u!58 &1539921153152050429
