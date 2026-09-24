@@ -1,43 +1,49 @@
 fileFormatVersion: 2
-guid: c3b974ab211ecf046bcf9cdaf6a9ba8f
+guid: 07ec77b61d7a3574eb243bae1ae37adf
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6247685413784231165
-    second: Win_Rouge_Frame_1_0
+      213: -6088728709336812373
+    second: Red_Clown_Win_1_0
   - first:
-      213: 4113925772873503241
-    second: Win_Rouge_Frame_1_1
+      213: -4932565248838854321
+    second: Red_Clown_Win_1_1
   - first:
-      213: -133536950153535519
-    second: Win_Rouge_Frame_1_2
+      213: -6458575349340604731
+    second: Red_Clown_Win_1_2
   - first:
-      213: 2400219959034069210
-    second: Win_Rouge_Frame_1_3
+      213: -8704480374590748053
+    second: Red_Clown_Win_1_3
   - first:
-      213: -4010294531246566655
-    second: Win_Rouge_Frame_1_4
+      213: -2061490852739340042
+    second: Red_Clown_Win_1_4
   - first:
-      213: 4921742805292591368
-    second: Win_Rouge_Frame_1_5
+      213: -5582180105562337625
+    second: Red_Clown_Win_1_5
   - first:
-      213: 4775195571245546261
-    second: Win_Rouge_Frame_1_6
+      213: -6534854109345619120
+    second: Red_Clown_Win_1_6
   - first:
-      213: -7114192004376650122
-    second: Win_Rouge_Frame_1_7
+      213: 1749280921573412865
+    second: Red_Clown_Win_1_7
   - first:
-      213: 2129936861235658048
-    second: Win_Rouge_Frame_1_8
+      213: 5147975856481551326
+    second: Red_Clown_Win_1_8
   - first:
-      213: 9076164074490226230
-    second: Win_Rouge_Frame_1_9
+      213: -4032236229765722928
+    second: Red_Clown_Win_1_9
   - first:
-      213: 5742576764555253207
-    second: Win_Rouge_Frame_1_10
+      213: -4691788192089387813
+    second: Red_Clown_Win_1_10
   - first:
-      213: 366251194659544705
-    second: Win_Rouge_Frame_1_11
+      213: 8658700420490651692
+    second: Red_Clown_Win_1_11
+  - first:
+      213: -8554442009353688421
+    second: Red_Clown_Win_1_12
+  - first:
+      213: -630629407856129240
+    second: Red_Clown_Win_1_13
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -148,13 +154,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Win_Rouge_Frame_1_0
+      name: Red_Clown_Win_1_13
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1368
-        height: 1152
+        width: 1920
+        height: 1080
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,8 +169,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dfc9ffc38cc34b650800000000000000
-      internalID: 6247685413784231165
+      spriteID: 82b02df05ed8f37f0800000000000000
+      internalID: -630629407856129240
       vertices: []
       indices: 
       edges: []
@@ -173,7 +179,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 2ad7f5764249b3241b6a1974a309cecf
+    spriteID: 05de634024cef6a43aafe618365837c3
     internalID: 0
     vertices: []
     indices: 
@@ -183,18 +189,20 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Win_Rouge_Frame_1_0: 6247685413784231165
-      Win_Rouge_Frame_1_1: 4113925772873503241
-      Win_Rouge_Frame_1_10: 5742576764555253207
-      Win_Rouge_Frame_1_11: 366251194659544705
-      Win_Rouge_Frame_1_2: -133536950153535519
-      Win_Rouge_Frame_1_3: 2400219959034069210
-      Win_Rouge_Frame_1_4: -4010294531246566655
-      Win_Rouge_Frame_1_5: 4921742805292591368
-      Win_Rouge_Frame_1_6: 4775195571245546261
-      Win_Rouge_Frame_1_7: -7114192004376650122
-      Win_Rouge_Frame_1_8: 2129936861235658048
-      Win_Rouge_Frame_1_9: 9076164074490226230
+      Red_Clown_Win_1_0: -6088728709336812373
+      Red_Clown_Win_1_1: -4932565248838854321
+      Red_Clown_Win_1_10: -4691788192089387813
+      Red_Clown_Win_1_11: 8658700420490651692
+      Red_Clown_Win_1_12: -8554442009353688421
+      Red_Clown_Win_1_13: -630629407856129240
+      Red_Clown_Win_1_2: -6458575349340604731
+      Red_Clown_Win_1_3: -8704480374590748053
+      Red_Clown_Win_1_4: -2061490852739340042
+      Red_Clown_Win_1_5: -5582180105562337625
+      Red_Clown_Win_1_6: -6534854109345619120
+      Red_Clown_Win_1_7: 1749280921573412865
+      Red_Clown_Win_1_8: 5147975856481551326
+      Red_Clown_Win_1_9: -4032236229765722928
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

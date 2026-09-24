@@ -1,43 +1,10 @@
 fileFormatVersion: 2
-guid: be109d52059a0a44e8ce57d3533b5527
+guid: c56c2b8aa9b0be04c9b3986c419a650d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2345634576022925731
-    second: Win_Rouge_Frame_2_0
-  - first:
-      213: 7941582566776731798
-    second: Win_Rouge_Frame_2_1
-  - first:
-      213: 4343237640069201105
-    second: Win_Rouge_Frame_2_2
-  - first:
-      213: 4902180316452728382
-    second: Win_Rouge_Frame_2_3
-  - first:
-      213: -9047202753865350529
-    second: Win_Rouge_Frame_2_4
-  - first:
-      213: -2327090532837881061
-    second: Win_Rouge_Frame_2_5
-  - first:
-      213: -2494910823938670837
-    second: Win_Rouge_Frame_2_6
-  - first:
-      213: -2024276326777715063
-    second: Win_Rouge_Frame_2_7
-  - first:
-      213: 82798714111536372
-    second: Win_Rouge_Frame_2_8
-  - first:
-      213: -776899928091411801
-    second: Win_Rouge_Frame_2_9
-  - first:
-      213: -5055135656346872842
-    second: Win_Rouge_Frame_2_10
-  - first:
-      213: 7899182934214502500
-    second: Win_Rouge_Frame_2_11
+      213: 4378642526220149273
+    second: "T\xEAte_Clown_Rouge_Lose_0"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -148,23 +115,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Win_Rouge_Frame_2_7
+      name: "T\xEAte_Clown_Rouge_Lose_0"
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1368
-        height: 1152
+        x: 1195
+        y: 223
+        width: 1154
+        height: 990
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9868e27e76358e3e0800000000000000
-      internalID: -2024276326777715063
+      spriteID: 91265c5bd2014cc30800000000000000
+      internalID: 4378642526220149273
       vertices: []
       indices: 
       edges: []
@@ -173,7 +140,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 57187e95d6b6ab746a9e759de20b1ef4
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -183,18 +150,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Win_Rouge_Frame_2_0: -2345634576022925731
-      Win_Rouge_Frame_2_1: 7941582566776731798
-      Win_Rouge_Frame_2_10: -5055135656346872842
-      Win_Rouge_Frame_2_11: 7899182934214502500
-      Win_Rouge_Frame_2_2: 4343237640069201105
-      Win_Rouge_Frame_2_3: 4902180316452728382
-      Win_Rouge_Frame_2_4: -9047202753865350529
-      Win_Rouge_Frame_2_5: -2327090532837881061
-      Win_Rouge_Frame_2_6: -2494910823938670837
-      Win_Rouge_Frame_2_7: -2024276326777715063
-      Win_Rouge_Frame_2_8: 82798714111536372
-      Win_Rouge_Frame_2_9: -776899928091411801
+      "T\xEAte_Clown_Rouge_Lose_0": 4378642526220149273
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

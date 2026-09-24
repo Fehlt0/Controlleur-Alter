@@ -1,46 +1,52 @@
 fileFormatVersion: 2
-guid: 1b07caf68b2817146a4532790317830f
+guid: 8626022b052d0f845b0e2b54a98d5d96
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8006578040927589634
-    second: Win_Bleu_Frame_1_0
+      213: 7649816437091038192
+    second: Blue_Clown_Win_2_0
   - first:
-      213: -2224524798816786040
-    second: Win_Bleu_Frame_1_1
+      213: -4286400440884604191
+    second: Blue_Clown_Win_2_1
   - first:
-      213: -8944623024358078103
-    second: Win_Bleu_Frame_1_2
+      213: -2181875370770219254
+    second: Blue_Clown_Win_2_2
   - first:
-      213: -5527962157450726735
-    second: Win_Bleu_Frame_1_3
+      213: -3795777730486050025
+    second: Blue_Clown_Win_2_3
   - first:
-      213: 3497791291261331084
-    second: Win_Bleu_Frame_1_4
+      213: 5490510058299383290
+    second: Blue_Clown_Win_2_4
   - first:
-      213: -8046667533560302881
-    second: Win_Bleu_Frame_1_5
+      213: -7579130164386619191
+    second: Blue_Clown_Win_2_5
   - first:
-      213: -5324631041954830151
-    second: Win_Bleu_Frame_1_6
+      213: -2953223200181765268
+    second: Blue_Clown_Win_2_6
   - first:
-      213: 4778220355974066223
-    second: Win_Bleu_Frame_1_7
+      213: 880472726553723020
+    second: Blue_Clown_Win_2_7
   - first:
-      213: -531087349243632721
-    second: Win_Bleu_Frame_1_8
+      213: 3673694089352010237
+    second: Blue_Clown_Win_2_8
   - first:
-      213: -8038000582978448534
-    second: Win_Bleu_Frame_1_9
+      213: 4408288131861131245
+    second: Blue_Clown_Win_2_9
   - first:
-      213: 5602311878846618338
-    second: Win_Bleu_Frame_1_10
+      213: 5933900210190933498
+    second: Blue_Clown_Win_2_10
   - first:
-      213: 1614357609548962882
-    second: Win_Bleu_Frame_1_11
+      213: 2057782091549591380
+    second: Blue_Clown_Win_2_11
   - first:
-      213: 6925052508658107425
-    second: Win_Bleu_Frame_1_12
+      213: 2690288100282267663
+    second: Blue_Clown_Win_2_12
+  - first:
+      213: 3398564215775065083
+    second: Blue_Clown_Win_2_13
+  - first:
+      213: -6816765481268807094
+    second: Blue_Clown_Win_2_14
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -151,13 +157,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Win_Bleu_Frame_1_8
+      name: Blue_Clown_Win_2_14
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1368
-        height: 1152
+        width: 1920
+        height: 1080
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,8 +172,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fa321a3aed231a8f0800000000000000
-      internalID: -531087349243632721
+      spriteID: a4af3db59ebf561a0800000000000000
+      internalID: -6816765481268807094
       vertices: []
       indices: 
       edges: []
@@ -176,7 +182,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: de9d4f29a2b564c4081bca6f8ce353ff
+    spriteID: 096cf942d5a788240b77ec41eb66a782
     internalID: 0
     vertices: []
     indices: 
@@ -186,19 +192,21 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Win_Bleu_Frame_1_0: -8006578040927589634
-      Win_Bleu_Frame_1_1: -2224524798816786040
-      Win_Bleu_Frame_1_10: 5602311878846618338
-      Win_Bleu_Frame_1_11: 1614357609548962882
-      Win_Bleu_Frame_1_12: 6925052508658107425
-      Win_Bleu_Frame_1_2: -8944623024358078103
-      Win_Bleu_Frame_1_3: -5527962157450726735
-      Win_Bleu_Frame_1_4: 3497791291261331084
-      Win_Bleu_Frame_1_5: -8046667533560302881
-      Win_Bleu_Frame_1_6: -5324631041954830151
-      Win_Bleu_Frame_1_7: 4778220355974066223
-      Win_Bleu_Frame_1_8: -531087349243632721
-      Win_Bleu_Frame_1_9: -8038000582978448534
+      Blue_Clown_Win_2_0: 7649816437091038192
+      Blue_Clown_Win_2_1: -4286400440884604191
+      Blue_Clown_Win_2_10: 5933900210190933498
+      Blue_Clown_Win_2_11: 2057782091549591380
+      Blue_Clown_Win_2_12: 2690288100282267663
+      Blue_Clown_Win_2_13: 3398564215775065083
+      Blue_Clown_Win_2_14: -6816765481268807094
+      Blue_Clown_Win_2_2: -2181875370770219254
+      Blue_Clown_Win_2_3: -3795777730486050025
+      Blue_Clown_Win_2_4: 5490510058299383290
+      Blue_Clown_Win_2_5: -7579130164386619191
+      Blue_Clown_Win_2_6: -2953223200181765268
+      Blue_Clown_Win_2_7: 880472726553723020
+      Blue_Clown_Win_2_8: 3673694089352010237
+      Blue_Clown_Win_2_9: 4408288131861131245
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
