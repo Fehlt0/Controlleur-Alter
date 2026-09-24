@@ -37,6 +37,8 @@ public class UIManager : MonoBehaviour
 
     [SerializeField] private Image player1Win;
     [SerializeField] private Image player2Win;
+    [SerializeField] private GameObject player1Win_anim;
+    [SerializeField] private GameObject player2Win_anim;
 
 
     public void SpawnInput(List<int> listInput, int player)
@@ -154,10 +156,12 @@ public class UIManager : MonoBehaviour
         switch (player)
         {
             case 0:
+                player2Win_anim.SetActive(true);
                 player2Win.gameObject.SetActive(true);
                 StartCoroutine(WinTimer());
                 break;
             case 1:
+                player1Win_anim.SetActive(true);
                 player1Win.gameObject.SetActive(true);
                 StartCoroutine(WinTimer());
                 break;

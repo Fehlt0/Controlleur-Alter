@@ -14,7 +14,11 @@ public class PlayerController : MonoBehaviour
     
     [SerializeField] private Transform baloonSpawnPosition;
     [SerializeField] private Ballon baloonPrefab;
-    
+    [SerializeField] public Animator animator_blue_boom;
+    [SerializeField] public Animator animator_red_boom;
+    [SerializeField] public GameObject BlueBoom;
+    [SerializeField] public GameObject RedBoom;
+
     private enum PlayerState
     {
         noState,
@@ -40,6 +44,8 @@ public class PlayerController : MonoBehaviour
         currentHP = maxHP;
         SpawnNewBaloon();
         ComboManager.instance.EnterPlayer(playerID, this);
+        animator_blue_boom = GetComponentInChildren<Animator>();
+        animator_red_boom = GetComponentInChildren<Animator>();
     }
 
     public void SpawnNewBaloon()
@@ -61,6 +67,17 @@ public class PlayerController : MonoBehaviour
             GameManager.instance.WinGame(playerID);
         }
         UIManager.instance.UpdateLife(currentHP,this);
+        //ici
+        if (playerID == 0)
+        {
+            BlueBoom.SetActive(true);
+            animator_blue_boom.SetBool("IsHit", true);
+        }
+        else if (playerID == 1)
+        {
+            RedBoom.SetActive(true);
+            animator_red_boom.SetBool("IsHit", true);
+        }
     }
 
     public void OnLaunchBaloon(InputAction.CallbackContext context)
