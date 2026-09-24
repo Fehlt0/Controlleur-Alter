@@ -87,7 +87,7 @@ public class PlayerController : MonoBehaviour
 
     private IEnumerator BoomTimerReset(int baloon)
     {
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0.4f);
         if (baloon == 0)
         {
             animator_blue_boom.SetBool("IsHit", false);
