@@ -1,0 +1,270 @@
+fileFormatVersion: 2
+guid: ba15220a0aaf7864687174186d99917f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 962329964466458861
+    second: Boom_Bleu_Frame_7_0
+  - first:
+      213: 7897758428127669300
+    second: Boom_Bleu_Frame_7_1
+  - first:
+      213: -5923380240157486884
+    second: Boom_Bleu_Frame_7_2
+  - first:
+      213: 6310449878084227633
+    second: Boom_Bleu_Frame_7_3
+  - first:
+      213: -4420020171190382798
+    second: Boom_Bleu_Frame_7_4
+  - first:
+      213: -6801859912143112403
+    second: Boom_Bleu_Frame_7_5
+  - first:
+      213: -5369522996676068705
+    second: Boom_Bleu_Frame_7_6
+  - first:
+      213: -3249836925479687743
+    second: Boom_Bleu_Frame_7_7
+  - first:
+      213: -5307690499504355443
+    second: Boom_Bleu_Frame_7_8
+  - first:
+      213: 132519059711521462
+    second: Boom_Bleu_Frame_7_9
+  - first:
+      213: 5443967881230021964
+    second: Boom_Bleu_Frame_7_10
+  - first:
+      213: 2263917254369732632
+    second: Boom_Bleu_Frame_7_11
+  - first:
+      213: 815010753832820482
+    second: Boom_Bleu_Frame_7_12
+  - first:
+      213: -1204836181965395018
+    second: Boom_Bleu_Frame_7_13
+  - first:
+      213: -832763889475548679
+    second: Boom_Bleu_Frame_7_14
+  - first:
+      213: 7796698897223553709
+    second: Boom_Bleu_Frame_7_15
+  - first:
+      213: -2957317194631882412
+    second: Boom_Bleu_Frame_7_16
+  - first:
+      213: -14004701300411074
+    second: Boom_Bleu_Frame_7_17
+  - first:
+      213: 4386024450394783138
+    second: Boom_Bleu_Frame_7_18
+  - first:
+      213: -6432433986294925999
+    second: Boom_Bleu_Frame_7_19
+  - first:
+      213: 1826872126488576746
+    second: Boom_Bleu_Frame_7_20
+  - first:
+      213: -8163463680635098405
+    second: Boom_Bleu_Frame_7_21
+  - first:
+      213: -2587517957649864017
+    second: Boom_Bleu_Frame_7_22
+  - first:
+      213: -5314907773168750734
+    second: Boom_Bleu_Frame_7_23
+  - first:
+      213: 1814536121191842784
+    second: Boom_Bleu_Frame_7_24
+  - first:
+      213: -1530257909188994023
+    second: Boom_Bleu_Frame_7_25
+  - first:
+      213: -2733646695301692643
+    second: Boom_Bleu_Frame_7_26
+  - first:
+      213: 1077660518738816930
+    second: Boom_Bleu_Frame_7_27
+  - first:
+      213: -8717451784497742103
+    second: Boom_Bleu_Frame_7_28
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Boom_Bleu_Frame_7_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1032
+        height: 1032
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faae554702a471cd0800000000000000
+      internalID: -2587517957649864017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 1698c38b542da3f48a0009aeda897e71
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Boom_Bleu_Frame_7_0: 962329964466458861
+      Boom_Bleu_Frame_7_1: 7897758428127669300
+      Boom_Bleu_Frame_7_10: 5443967881230021964
+      Boom_Bleu_Frame_7_11: 2263917254369732632
+      Boom_Bleu_Frame_7_12: 815010753832820482
+      Boom_Bleu_Frame_7_13: -1204836181965395018
+      Boom_Bleu_Frame_7_14: -832763889475548679
+      Boom_Bleu_Frame_7_15: 7796698897223553709
+      Boom_Bleu_Frame_7_16: -2957317194631882412
+      Boom_Bleu_Frame_7_17: -14004701300411074
+      Boom_Bleu_Frame_7_18: 4386024450394783138
+      Boom_Bleu_Frame_7_19: -6432433986294925999
+      Boom_Bleu_Frame_7_2: -5923380240157486884
+      Boom_Bleu_Frame_7_20: 1826872126488576746
+      Boom_Bleu_Frame_7_21: -8163463680635098405
+      Boom_Bleu_Frame_7_22: -2587517957649864017
+      Boom_Bleu_Frame_7_23: -5314907773168750734
+      Boom_Bleu_Frame_7_24: 1814536121191842784
+      Boom_Bleu_Frame_7_25: -1530257909188994023
+      Boom_Bleu_Frame_7_26: -2733646695301692643
+      Boom_Bleu_Frame_7_27: 1077660518738816930
+      Boom_Bleu_Frame_7_28: -8717451784497742103
+      Boom_Bleu_Frame_7_3: 6310449878084227633
+      Boom_Bleu_Frame_7_4: -4420020171190382798
+      Boom_Bleu_Frame_7_5: -6801859912143112403
+      Boom_Bleu_Frame_7_6: -5369522996676068705
+      Boom_Bleu_Frame_7_7: -3249836925479687743
+      Boom_Bleu_Frame_7_8: -5307690499504355443
+      Boom_Bleu_Frame_7_9: 132519059711521462
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
