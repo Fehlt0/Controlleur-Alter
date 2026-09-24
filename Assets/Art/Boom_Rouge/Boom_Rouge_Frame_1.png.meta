@@ -124,59 +124,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Boom_Rouge_Frame_1_0
-      rect:
-        serializedVersion: 2
-        x: 408
-        y: 513
-        width: 221
-        height: 217
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6bb739e2119f4ffd0800000000000000
-      internalID: -2308946856743044170
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Boom_Rouge_Frame_1_1
-      rect:
-        serializedVersion: 2
-        x: 601
-        y: 668
-        width: 38
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1fdf9a5a2ddd8f910800000000000000
-      internalID: 1871489541964692977
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Boom_Rouge_Frame_1_2
       rect:
         serializedVersion: 2
-        x: 394
-        y: 518
-        width: 47
-        height: 40
+        x: 0
+        y: 0
+        width: 1032
+        height: 1032
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -189,33 +145,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Boom_Rouge_Frame_1_3
-      rect:
-        serializedVersion: 2
-        x: 549
-        y: 481
-        width: 38
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9382b62abec73cd60800000000000000
-      internalID: 7909302722076813369
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 115ff7179995e4f42afbf51424963bf7
     internalID: 0
     vertices: []
     indices: 

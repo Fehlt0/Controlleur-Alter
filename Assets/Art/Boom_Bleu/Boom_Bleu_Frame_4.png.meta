@@ -124,81 +124,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Boom_Bleu_Frame_4_0
-      rect:
-        serializedVersion: 2
-        x: 49
-        y: 178
-        width: 858
-        height: 795
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 33bf79f3a13f843d0800000000000000
-      internalID: -3222058239321965773
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Boom_Bleu_Frame_4_1
-      rect:
-        serializedVersion: 2
-        x: 247
-        y: 871
-        width: 110
-        height: 119
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f7cd25913ff807300800000000000000
-      internalID: 247856253770062975
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Boom_Bleu_Frame_4_2
-      rect:
-        serializedVersion: 2
-        x: 869
-        y: 555
-        width: 44
-        height: 193
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 08070fa5b87818480800000000000000
-      internalID: -8898682356111478656
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Boom_Bleu_Frame_4_3
       rect:
         serializedVersion: 2
-        x: 181
-        y: 205
-        width: 85
-        height: 150
+        x: 0
+        y: 0
+        width: 1032
+        height: 1032
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -215,7 +149,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 48c50aff7b6547043abfc74ae34c8c8e
     internalID: 0
     vertices: []
     indices: 

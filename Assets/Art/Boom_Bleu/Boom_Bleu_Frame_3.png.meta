@@ -127,81 +127,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Boom_Bleu_Frame_3_0
-      rect:
-        serializedVersion: 2
-        x: 143
-        y: 248
-        width: 709
-        height: 690
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0a277f11951211890800000000000000
-      internalID: -7489168038903188832
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Boom_Bleu_Frame_3_1
-      rect:
-        serializedVersion: 2
-        x: 247
-        y: 855
-        width: 120
-        height: 135
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 83e5a8a0abe34ca30800000000000000
-      internalID: 4234578518396788280
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Boom_Bleu_Frame_3_2
-      rect:
-        serializedVersion: 2
-        x: 729
-        y: 800
-        width: 135
-        height: 141
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 21c369935fa5ff8e0800000000000000
-      internalID: -1657506128569418734
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Boom_Bleu_Frame_3_3
       rect:
         serializedVersion: 2
-        x: 180
-        y: 205
-        width: 95
-        height: 166
+        x: 0
+        y: 0
+        width: 1032
+        height: 1032
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -214,33 +148,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Boom_Bleu_Frame_3_4
-      rect:
-        serializedVersion: 2
-        x: 673
-        y: 218
-        width: 121
-        height: 144
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7a5c9915799785ed0800000000000000
-      internalID: -2425054708522957401
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 0812ba974653ae44ca221d12eb98c808
     internalID: 0
     vertices: []
     indices: 
