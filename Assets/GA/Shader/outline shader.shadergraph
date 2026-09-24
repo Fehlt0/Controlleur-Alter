@@ -2702,12 +2702,12 @@
     "m_Hidden": false,
     "m_PerRendererData": false,
     "m_customAttributes": [],
-    "m_Value": 0.004999999888241291,
+    "m_Value": 0.0020000000949949026,
     "m_FloatType": 1,
     "m_LiteralFloatMode": false,
     "m_RangeValues": {
         "x": 0.0,
-        "y": 0.014499999582767487
+        "y": 0.0020000000949949026
     },
     "m_SliderType": 0,
     "m_SliderPower": 3.0,
