@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 1127a5b1c0c16de41a9a36412bcada40
+guid: 81ef8184af08bff498c20578ddd09c51
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8801819111103863087
-    second: Timer_0
+      213: 2663678769382613219
+    second: UI_Ballon_Rouge 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -115,13 +115,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Timer_0
+      name: UI_Ballon_Rouge 1_0
       rect:
         serializedVersion: 2
-        x: 189
-        y: 206
-        width: 1329
-        height: 713
+        x: 41
+        y: 55
+        width: 272
+        height: 473
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,8 +130,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1d6e8690728a9d580800000000000000
-      internalID: -8801819111103863087
+      spriteID: 3e0eccc5ab947f420800000000000000
+      internalID: 2663678769382613219
       vertices: []
       indices: 
       edges: []
@@ -150,7 +150,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Timer_0: -8801819111103863087
+      UI_Ballon_Rouge 1_0: 2663678769382613219
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

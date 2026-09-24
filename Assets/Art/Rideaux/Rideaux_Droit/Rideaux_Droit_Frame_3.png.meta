@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 1127a5b1c0c16de41a9a36412bcada40
+guid: 75486a8ca71bd304ea423be121abb45d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8801819111103863087
-    second: Timer_0
+      213: -8298105101709199621
+    second: Rideaux_Droit_Frame_3_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -115,13 +115,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Timer_0
+      name: Rideaux_Droit_Frame_3_0
       rect:
         serializedVersion: 2
-        x: 189
-        y: 206
-        width: 1329
-        height: 713
+        x: 1024
+        y: 0
+        width: 894
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,8 +130,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1d6e8690728a9d580800000000000000
-      internalID: -8801819111103863087
+      spriteID: bf634cf006537dc80800000000000000
+      internalID: -8298105101709199621
       vertices: []
       indices: 
       edges: []
@@ -150,7 +150,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Timer_0: -8801819111103863087
+      Rideaux_Droit_Frame_3_0: -8298105101709199621
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

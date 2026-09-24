@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: 1127a5b1c0c16de41a9a36412bcada40
+guid: 9921bdf201404f54987a89f075c28540
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8801819111103863087
-    second: Timer_0
+      213: 5524377271059052364
+    second: Barre_Vie_Rouge_0
+  - first:
+      213: 124462114250905783
+    second: Barre_Vie_Rouge_1
+  - first:
+      213: -4604656371515609963
+    second: Barre_Vie_Rouge_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -48,7 +54,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -115,23 +121,67 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Timer_0
+      name: Barre_Vie_Rouge_0
       rect:
         serializedVersion: 2
-        x: 189
-        y: 206
-        width: 1329
-        height: 713
+        x: 48
+        y: 40
+        width: 900
+        height: 230
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1d6e8690728a9d580800000000000000
-      internalID: -8801819111103863087
+      spriteID: c4777becbd78aac40800000000000000
+      internalID: 5524377271059052364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barre_Vie_Rouge_1
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 40
+        width: 900
+        height: 230
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b85beb22ad2ab100800000000000000
+      internalID: 124462114250905783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barre_Vie_Rouge_2
+      rect:
+        serializedVersion: 2
+        x: 1884
+        y: 40
+        width: 900
+        height: 230
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59ca2173d69f810c0800000000000000
+      internalID: -4604656371515609963
       vertices: []
       indices: 
       edges: []
@@ -140,7 +190,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 1e1b55580b35eeb44ab3daf9b2de7525
     internalID: 0
     vertices: []
     indices: 
@@ -150,7 +200,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Timer_0: -8801819111103863087
+      Barre_Vie_Rouge_0: 5524377271059052364
+      Barre_Vie_Rouge_1: 124462114250905783
+      Barre_Vie_Rouge_2: -4604656371515609963
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

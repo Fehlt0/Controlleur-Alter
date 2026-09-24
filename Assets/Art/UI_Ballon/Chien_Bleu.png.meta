@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 1127a5b1c0c16de41a9a36412bcada40
+guid: 859d46aa74e290047b6790a61ce53bfd
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8801819111103863087
-    second: Timer_0
+      213: -8582351821373147520
+    second: Chien_Bleu_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -115,13 +115,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Timer_0
+      name: Chien_Bleu_0
       rect:
         serializedVersion: 2
-        x: 189
-        y: 206
-        width: 1329
-        height: 713
+        x: 34
+        y: 40
+        width: 139
+        height: 123
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,8 +130,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1d6e8690728a9d580800000000000000
-      internalID: -8801819111103863087
+      spriteID: 08670ad5d7c55e880800000000000000
+      internalID: -8582351821373147520
       vertices: []
       indices: 
       edges: []
@@ -150,7 +150,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Timer_0: -8801819111103863087
+      Chien_Bleu_0: -8582351821373147520
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
