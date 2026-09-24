@@ -9,6 +9,9 @@ public class Ballon : MonoBehaviour
     [SerializeField] private PlayerController playerRef;
 
     [SerializeField] private List<Sprite> spritesBaloon;
+    
+    [SerializeField] private List<Sprite> spriteBaloonGonfle;
+    private int gonfleState = 0;
 
     private SpriteRenderer spriteRenderer;
     
@@ -16,8 +19,8 @@ public class Ballon : MonoBehaviour
     {
         basic,
         form1,
-        form2,
-        form3
+        formHeal,
+        formLent
     }
 
     public enum State
@@ -57,12 +60,16 @@ public class Ballon : MonoBehaviour
     {
         if (state == State.gonfle)
         {
-            inflation += 0.2f;
-            transform.localScale = new Vector3(inflation/1.5f, inflation, inflation);
-            if (inflation > 2.5)
+            inflation += 1f;
+            if(inflation % 3 == 0 && gonfleState + 1 < spriteBaloonGonfle.Count)
+            {
+                gonfleState++;
+                spriteRenderer.sprite = spriteBaloonGonfle[gonfleState];
+            }
+            if (inflation > 21f)
             {
                 float proba = Random.value;
-                if (proba >= 0.7)
+                if (proba <= (inflation / 7) / 10)
                 {
                     DestroyBaloon();
                 }
@@ -90,10 +97,10 @@ public class Ballon : MonoBehaviour
                 baloonType = BaloonType.form1;
                 break;
             case 1:
-                baloonType = BaloonType.form2;
+                baloonType = BaloonType.formHeal;
                 break;
             case 2:
-                baloonType = BaloonType.form3;
+                baloonType = BaloonType.formLent;
                 break;
         }
         SwitchSprite(input);
@@ -107,7 +114,15 @@ public class Ballon : MonoBehaviour
 
     public void AutoLaunch(Vector3 target)
     {
-        float speed = 5f;
+        float speed;
+        if (baloonType == BaloonType.formLent)
+        {
+            speed = 2f;
+        }
+        else
+        {
+            speed = 4f;
+        }
         transform.position = Vector3.MoveTowards(transform.position, target, speed * Time.deltaTime);
     }
 
@@ -117,7 +132,20 @@ public class Ballon : MonoBehaviour
         {
             Debug.Log("jvihrehv");
             PlayerController enemy = other.GetComponent<PlayerController>();
-            enemy.LoseLife(1000);
+            if (baloonType == BaloonType.formLent)
+            {
+                enemy.LoseLife(inflation * 1.25f);
+            }
+            else
+            {
+                enemy.LoseLife(inflation * 0.8f);
+            }
+            
+            if (baloonType == BaloonType.formHeal)
+            {
+                ComboManager.instance.GetOtherPlayer(enemy.playerID).LoseLife(-inflation / 2);
+            }
+            
             DestroyBaloon();
         }
     }
