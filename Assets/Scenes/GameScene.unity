@@ -2594,8 +2594,8 @@ MonoBehaviour:
   - {fileID: 5088316998373936774, guid: 4b9c363322f2e8e469c6f66600cc5ddd, type: 3}
   player1Win: {fileID: 1820332272}
   player2Win: {fileID: 55008342}
-  player1Win_anim: {fileID: 0}
-  player2Win_anim: {fileID: 0}
+  player1Win_anim: {fileID: 681667953}
+  player2Win_anim: {fileID: 809492030}
 --- !u!4 &611622105
 Transform:
   m_ObjectHideFlags: 0
@@ -7302,6 +7302,7 @@ RectTransform:
   - {fileID: 576784027}
   - {fileID: 1820332270}
   - {fileID: 55008344}
+  - {fileID: 1476685198}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -8353,9 +8354,9 @@ SceneRoots:
   - {fileID: 873393835}
   - {fileID: 1458026600}
   - {fileID: 1706675248}
+  - {fileID: 689127628}
+  - {fileID: 1279193399}
   - {fileID: 1989802903}
   - {fileID: 809492033}
   - {fileID: 681667956}
-  - {fileID: 689127628}
-  - {fileID: 1279193399}
   - {fileID: 282188194}
