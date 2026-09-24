@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private int maxHP;
     private float currentHP;
 
-    [SerializeField] private int playerID;
+    public int playerID;
     
     [SerializeField] private Transform baloonSpawnPosition;
     [SerializeField] private Ballon baloonPrefab;
@@ -26,6 +26,14 @@ public class PlayerController : MonoBehaviour
     }
 
     private PlayerState playerState = PlayerState.noState;
+    
+    private enum PlayerPumping // pimp my ride ou quoi la team
+    {
+        pumping,
+        unpumping
+    }
+    
+    private PlayerPumping playerPumping = PlayerPumping.unpumping;
 
     private void Start()
     {
@@ -63,6 +71,19 @@ public class PlayerController : MonoBehaviour
             activeBaloon.state = Ballon.State.launched;
         }
     }
+    
+    //C'EST LA QU'IL FAUT MODIF PUR LA POMPE LA    
+    //C'EST LA QU'IL FAUT MODIF PUR LA POMPE LA
+    //C'EST LA QU'IL FAUT MODIF PUR LA POMPE LA
+    //C'EST LA QU'IL FAUT MODIF PUR LA POMPE LA
+    //C'EST LA QU'IL FAUT MODIF PUR LA POMPE LA
+    //C'EST LA QU'IL FAUT MODIF PUR LA POMPE LA
+    //C'EST LA QU'IL FAUT MODIF PUR LA POMPE LA
+    //C'EST LA QU'IL FAUT MODIF PUR LA POMPE LA
+    //C'EST LA QU'IL FAUT MODIF PUR LA POMPE LA
+    //C'EST LA QU'IL FAUT MODIF PUR LA POMPE LA
+    //C'EST LA QU'IL FAUT MODIF PUR LA POMPE LA
+
     public void OnInteract(InputAction.CallbackContext context)
     {
         if (context.started && GameManager.instance.gameState == GameManager.GameState.Playing && playerState != PlayerState.won && playerState != PlayerState.lose)
@@ -70,6 +91,19 @@ public class PlayerController : MonoBehaviour
             activeBaloon.Gonfler();
         }
     }
+    //C'EST LA QU'IL FAUT MODIF PUR LA POMPE LA    
+    //C'EST LA QU'IL FAUT MODIF PUR LA POMPE LA
+    //C'EST LA QU'IL FAUT MODIF PUR LA POMPE LA
+    //C'EST LA QU'IL FAUT MODIF PUR LA POMPE LA
+    //C'EST LA QU'IL FAUT MODIF PUR LA POMPE LA
+    //C'EST LA QU'IL FAUT MODIF PUR LA POMPE LA
+    //C'EST LA QU'IL FAUT MODIF PUR LA POMPE LA
+    //C'EST LA QU'IL FAUT MODIF PUR LA POMPE LA
+    //C'EST LA QU'IL FAUT MODIF PUR LA POMPE LA
+    //C'EST LA QU'IL FAUT MODIF PUR LA POMPE LA
+    //C'EST LA QU'IL FAUT MODIF PUR LA POMPE LA
+    
+    
     public void OnLeft(InputAction.CallbackContext context)
     {
         if (context.started && GameManager.instance.gameState == GameManager.GameState.Playing && playerState != PlayerState.won && playerState != PlayerState.lose)
@@ -118,17 +152,11 @@ public class PlayerController : MonoBehaviour
         Destroy(activeBaloon.gameObject);
     }
 
-    public void GetEffect(Ballon.BaloonType type)
+    public void GetEffect(Ballon.BaloonType type, int damage)
     {
-        switch (type)
+        if (type == Ballon.BaloonType.formHeal)
         {
-            case Ballon.BaloonType.form1:
-                
-                break;
-            case Ballon.BaloonType.form2:
-                break;
-            case Ballon.BaloonType.form3:
-                break;
+            ComboManager.instance.GetOtherPlayer(playerID).LoseLife(damage / 2 * -1) ;
         }
     }
 
