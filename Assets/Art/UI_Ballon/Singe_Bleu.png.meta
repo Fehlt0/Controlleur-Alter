@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 38d429b3ac0c76f459b9bf015d9296ba
+guid: 0844be9ffc2c35a49ada4368fb5fa88e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6883074786404865907
-    second: Rideaux_Frame_6_0
-  - first:
-      213: -2482802974072317681
-    second: Rideaux_Frame_6_1
+      213: 9067009571298035897
+    second: Singe_Bleu_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -118,13 +115,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Rideaux_Frame_6_0
+      name: Singe_Bleu_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 73
-        width: 238
-        height: 1007
+        x: 47
+        y: 52
+        width: 113
+        height: 98
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -133,30 +130,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d88e3e923f76a70a0800000000000000
-      internalID: -6883074786404865907
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Rideaux_Frame_6_1
-      rect:
-        serializedVersion: 2
-        x: 1650
-        y: 14
-        width: 270
-        height: 1066
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f09d22b79df4b8dd0800000000000000
-      internalID: -2482802974072317681
+      spriteID: 9b849408a2d74dd70800000000000000
+      internalID: 9067009571298035897
       vertices: []
       indices: 
       edges: []
@@ -175,8 +150,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Rideaux_Frame_6_0: -6883074786404865907
-      Rideaux_Frame_6_1: -2482802974072317681
+      Singe_Bleu_0: 9067009571298035897
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
