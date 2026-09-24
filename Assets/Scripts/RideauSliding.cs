@@ -14,7 +14,6 @@ public class RideauSliding : MonoBehaviour
     [SerializeField] private GameObject RideauD;
     private bool isClosing = false;
     private bool isTimerRunning = false;
-    private GameManager gameManager;
 
     private void Start()
     {
@@ -63,7 +62,7 @@ public class RideauSliding : MonoBehaviour
         isClosing = false;
         isTimerRunning = false;
         //ici
-        gameManager.animator.SetBool("IsClosing", true);
+        GameManager.instance.animator.SetBool("IsClosing", false);
         if (GameManager.instance.gameState == GameManager.GameState.waitingPlayer)
         {
             UIManager.instance.TimerStart();
