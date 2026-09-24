@@ -58,6 +58,7 @@ public class Ballon : MonoBehaviour
 
     public void Gonfler()
     {
+        Debug.Log("Gonfler");
         if (state == State.gonfle)
         {
             inflation += 1f;
