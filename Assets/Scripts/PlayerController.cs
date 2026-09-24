@@ -72,7 +72,7 @@ public class PlayerController : MonoBehaviour
         }
     }
     
-    //C'EST LA QU'IL FAUT MODIF PUR LA POMPE LA    
+    //C'EST LA QU'IL FAUT MODIF PUR LA POMPE LA
     //C'EST LA QU'IL FAUT MODIF PUR LA POMPE LA
     //C'EST LA QU'IL FAUT MODIF PUR LA POMPE LA
     //C'EST LA QU'IL FAUT MODIF PUR LA POMPE LA
@@ -90,7 +90,7 @@ public class PlayerController : MonoBehaviour
             activeBaloon.Gonfler();
         }
     }
-    //C'EST LA QU'IL FAUT MODIF PUR LA POMPE LA    
+    //C'EST LA QU'IL FAUT MODIF PUR LA POMPE LA
     //C'EST LA QU'IL FAUT MODIF PUR LA POMPE LA
     //C'EST LA QU'IL FAUT MODIF PUR LA POMPE LA
     //C'EST LA QU'IL FAUT MODIF PUR LA POMPE LA

@@ -323,7 +323,7 @@ MonoBehaviour:
   maxHP: 100
   playerID: 1
   baloonSpawnPosition: {fileID: 5592595790333649338}
-  baloonPrefab: {fileID: -7319620349504812680, guid: f77977f6b3175c94b9ccbfc9c185dc40, type: 3}
+  baloonPrefab: {fileID: -7319620349504812680, guid: 3b34360b5fddc034db222fd017874c86, type: 3}
 --- !u!61 &-1335083023406240256
 BoxCollider2D:
   m_ObjectHideFlags: 0
