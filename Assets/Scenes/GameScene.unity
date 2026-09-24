@@ -1033,6 +1033,7 @@ GameObject:
   - component: {fileID: 348229970}
   - component: {fileID: 348229969}
   - component: {fileID: 348229968}
+  - component: {fileID: 348229971}
   m_Layer: 0
   m_Name: OSCManager
   m_TagString: Untagged
@@ -1122,6 +1123,43 @@ MonoBehaviour:
   m_MulticastAddress: 0.0.0.0
   m_MulticastLoopback: 0
   m_StreamType: 1
+--- !u!114 &348229971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 348229966}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5b9979067d335d47a65133b882b31ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Media.Osc.Components::Unity.Media.Osc.OscMessageHandler
+  m_Receiver: {fileID: 348229970}
+  m_Address: /OSCManager
+  m_Arguments:
+  - rid: 378441465835815000
+  references:
+    version: 2
+    RefIds:
+    - rid: 378441465835815000
+      type: {class: ArgumentHandlerFloat, ns: Unity.Media.Osc, asm: Unity.Media.Osc.Components}
+      data:
+        m_Event:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 348229968}
+              m_TargetAssemblyTypeName: OSCHandler, Assembly-CSharp
+              m_MethodName: ReceiveOSCP2
+              m_Mode: 0
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2
 --- !u!4 &348407317 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3019556412453698696, guid: c4143a4f1ae441642a0b57bc32477d25, type: 3}
