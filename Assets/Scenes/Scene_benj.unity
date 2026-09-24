@@ -1018,6 +1018,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 708c564448eedfa48ac95ee364b26526, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  animator: {fileID: 2034367316}
   gameState: 0
 --- !u!114 &517951140
 MonoBehaviour:
@@ -4435,7 +4436,7 @@ Animator:
   m_GameObject: {fileID: 2034367314}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: ad1f45cd4064b074abebb5a8a4052b2c, type: 2}
+  m_Controller: {fileID: 9100000, guid: 4d0e687b901ba5f4f9d64271faa12134, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

@@ -3,7 +3,9 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    public Animator animator;
     public static GameManager instance;
+    
 
     private void Awake()
     {
@@ -27,6 +29,7 @@ public class GameManager : MonoBehaviour
     {
         rideauSliding = GetComponent<RideauSliding>();
         gameState = GameState.waitingPlayer;
+        animator = GetComponent<Animator>();
     }
 
     public void StartGame()
