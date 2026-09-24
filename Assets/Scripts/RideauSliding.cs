@@ -40,7 +40,7 @@ public class RideauSliding : MonoBehaviour
 
     private void SlideRideau()
     {
-        float speed = 3f;
+        float speed = 10f;
 
         RideauG.transform.position = Vector3.MoveTowards(RideauG.transform.position, targetGToGo, speed * Time.deltaTime);
         RideauD.transform.position = Vector3.MoveTowards(RideauD.transform.position, targetDToGo, speed * Time.deltaTime);
