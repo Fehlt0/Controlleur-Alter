@@ -1,46 +1,10 @@
 fileFormatVersion: 2
-guid: c04659d4cb742d04882731b0daf60a65
+guid: 4246c5246f99836409476e7a2858f859
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2216311613617546936
-    second: Win_Bleu_Frame_2_0
-  - first:
-      213: -4838488980736909215
-    second: Win_Bleu_Frame_2_1
-  - first:
-      213: -7162259444690222558
-    second: Win_Bleu_Frame_2_2
-  - first:
-      213: 4835083946699061584
-    second: Win_Bleu_Frame_2_3
-  - first:
-      213: 2526009342809806688
-    second: Win_Bleu_Frame_2_4
-  - first:
-      213: -1130008556270663154
-    second: Win_Bleu_Frame_2_5
-  - first:
-      213: 7218895765800658391
-    second: Win_Bleu_Frame_2_6
-  - first:
-      213: 6544574907352207705
-    second: Win_Bleu_Frame_2_7
-  - first:
-      213: 6506775879344656835
-    second: Win_Bleu_Frame_2_8
-  - first:
-      213: -7645220222350330359
-    second: Win_Bleu_Frame_2_9
-  - first:
-      213: -7315620879585438494
-    second: Win_Bleu_Frame_2_10
-  - first:
-      213: 2308781788872755837
-    second: Win_Bleu_Frame_2_11
-  - first:
-      213: 7113609088347572971
-    second: Win_Bleu_Frame_2_12
+      213: 4319695122004765736
+    second: concept_pompe_bleu_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -151,13 +115,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Win_Bleu_Frame_2_0
+      name: concept_pompe_bleu_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1368
-        height: 1152
+        x: 79
+        y: 93
+        width: 217
+        height: 319
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,8 +130,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8b62f398babe1ce10800000000000000
-      internalID: 2216311613617546936
+      spriteID: 82ce415a3d3a2fb30800000000000000
+      internalID: 4319695122004765736
       vertices: []
       indices: 
       edges: []
@@ -176,7 +140,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 366166d79fb1fde4fb664e058eac3d27
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -186,19 +150,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Win_Bleu_Frame_2_0: 2216311613617546936
-      Win_Bleu_Frame_2_1: -4838488980736909215
-      Win_Bleu_Frame_2_10: -7315620879585438494
-      Win_Bleu_Frame_2_11: 2308781788872755837
-      Win_Bleu_Frame_2_12: 7113609088347572971
-      Win_Bleu_Frame_2_2: -7162259444690222558
-      Win_Bleu_Frame_2_3: 4835083946699061584
-      Win_Bleu_Frame_2_4: 2526009342809806688
-      Win_Bleu_Frame_2_5: -1130008556270663154
-      Win_Bleu_Frame_2_6: 7218895765800658391
-      Win_Bleu_Frame_2_7: 6544574907352207705
-      Win_Bleu_Frame_2_8: 6506775879344656835
-      Win_Bleu_Frame_2_9: -7645220222350330359
+      concept_pompe_bleu_0: 4319695122004765736
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

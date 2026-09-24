@@ -1,46 +1,13 @@
 fileFormatVersion: 2
-guid: c04659d4cb742d04882731b0daf60a65
+guid: d70dc43e5a327684cb453ac6dc4710d3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2216311613617546936
-    second: Win_Bleu_Frame_2_0
+      213: 8230356979341214886
+    second: frameBlue03_0
   - first:
-      213: -4838488980736909215
-    second: Win_Bleu_Frame_2_1
-  - first:
-      213: -7162259444690222558
-    second: Win_Bleu_Frame_2_2
-  - first:
-      213: 4835083946699061584
-    second: Win_Bleu_Frame_2_3
-  - first:
-      213: 2526009342809806688
-    second: Win_Bleu_Frame_2_4
-  - first:
-      213: -1130008556270663154
-    second: Win_Bleu_Frame_2_5
-  - first:
-      213: 7218895765800658391
-    second: Win_Bleu_Frame_2_6
-  - first:
-      213: 6544574907352207705
-    second: Win_Bleu_Frame_2_7
-  - first:
-      213: 6506775879344656835
-    second: Win_Bleu_Frame_2_8
-  - first:
-      213: -7645220222350330359
-    second: Win_Bleu_Frame_2_9
-  - first:
-      213: -7315620879585438494
-    second: Win_Bleu_Frame_2_10
-  - first:
-      213: 2308781788872755837
-    second: Win_Bleu_Frame_2_11
-  - first:
-      213: 7113609088347572971
-    second: Win_Bleu_Frame_2_12
+      213: -6757769397731152274
+    second: frameBlue03_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -151,23 +118,45 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Win_Bleu_Frame_2_0
+      name: frameBlue03_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1368
-        height: 1152
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 397
+        y: 152
+        width: 436
+        height: 484
+      alignment: 9
+      pivot: {x: 0.008622265, y: 0.004347147}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8b62f398babe1ce10800000000000000
-      internalID: 2216311613617546936
+      spriteID: 6a44a40011a183270800000000000000
+      internalID: 8230356979341214886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frameBlue03_1
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 325
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6eaa3679849732a0800000000000000
+      internalID: -6757769397731152274
       vertices: []
       indices: 
       edges: []
@@ -176,7 +165,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 366166d79fb1fde4fb664e058eac3d27
+    spriteID: e950940a41915cd49b13dcf4eb26dab2
     internalID: 0
     vertices: []
     indices: 
@@ -186,19 +175,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Win_Bleu_Frame_2_0: 2216311613617546936
-      Win_Bleu_Frame_2_1: -4838488980736909215
-      Win_Bleu_Frame_2_10: -7315620879585438494
-      Win_Bleu_Frame_2_11: 2308781788872755837
-      Win_Bleu_Frame_2_12: 7113609088347572971
-      Win_Bleu_Frame_2_2: -7162259444690222558
-      Win_Bleu_Frame_2_3: 4835083946699061584
-      Win_Bleu_Frame_2_4: 2526009342809806688
-      Win_Bleu_Frame_2_5: -1130008556270663154
-      Win_Bleu_Frame_2_6: 7218895765800658391
-      Win_Bleu_Frame_2_7: 6544574907352207705
-      Win_Bleu_Frame_2_8: 6506775879344656835
-      Win_Bleu_Frame_2_9: -7645220222350330359
+      frameBlue03_0: 8230356979341214886
+      frameBlue03_1: -6757769397731152274
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
