@@ -124,10 +124,10 @@ TextureImporter:
       name: Barre_Vie_Rouge_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 964
-        height: 310
+        x: 48
+        y: 40
+        width: 900
+        height: 230
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -146,13 +146,13 @@ TextureImporter:
       name: Barre_Vie_Rouge_1
       rect:
         serializedVersion: 2
-        x: 950
-        y: 0
-        width: 931
-        height: 310
+        x: 966
+        y: 40
+        width: 900
+        height: 230
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 6, y: 0, z: 0, w: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
@@ -168,10 +168,10 @@ TextureImporter:
       name: Barre_Vie_Rouge_2
       rect:
         serializedVersion: 2
-        x: 1869
-        y: 0
-        width: 951
-        height: 310
+        x: 1884
+        y: 40
+        width: 900
+        height: 230
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

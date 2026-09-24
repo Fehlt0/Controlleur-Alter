@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: f59db9dfb09088e409b7449c85bdb34b
+guid: fc6693f55fc42aa4d8b9899cc081514b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3708204884723401671
-    second: UI_Ballon_Bleu_0
+      213: 3110795631086469177
+    second: UI_Ballon_Bleu 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -48,7 +48,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -115,23 +115,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: UI_Ballon_Bleu_0
+      name: UI_Ballon_Bleu 1_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 23
-        width: 400
-        height: 577
+        x: 63
+        y: 58
+        width: 273
+        height: 485
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 93c71b3ed4fc98cc0800000000000000
-      internalID: -3708204884723401671
+      spriteID: 9300fbf0524cb2b20800000000000000
+      internalID: 3110795631086469177
       vertices: []
       indices: 
       edges: []
@@ -140,7 +140,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 1d3c79f7c4b39e4428246bf8f29b82d5
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -150,7 +150,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      UI_Ballon_Bleu_0: -3708204884723401671
+      UI_Ballon_Bleu 1_0: 3110795631086469177
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

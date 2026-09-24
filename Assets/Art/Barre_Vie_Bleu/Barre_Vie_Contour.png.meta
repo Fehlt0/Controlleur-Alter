@@ -1,16 +1,10 @@
 fileFormatVersion: 2
-guid: 031117360a20d534ab1973dd0ac4a876
+guid: c444693c3be35d84883c64ecbe82fb97
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1660846393650335355
-    second: Barre_Vie_Bleu_0
-  - first:
-      213: -7850436698891431199
-    second: Barre_Vie_Bleu_1
-  - first:
-      213: 5609605539088540379
-    second: Barre_Vie_Bleu_2
+      213: -8108210325864310391
+    second: Barre_Vie_Contour_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -54,7 +48,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -121,67 +115,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Barre_Vie_Bleu_0
+      name: Barre_Vie_Contour_0
       rect:
         serializedVersion: 2
-        x: 48
-        y: 40
-        width: 900
-        height: 229
+        x: 47
+        y: 39
+        width: 902
+        height: 232
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b7e4408def28c0710800000000000000
-      internalID: 1660846393650335355
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Barre_Vie_Bleu_1
-      rect:
-        serializedVersion: 2
-        x: 966
-        y: 40
-        width: 900
-        height: 229
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1e2d2ee6a65ad0390800000000000000
-      internalID: -7850436698891431199
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Barre_Vie_Bleu_2
-      rect:
-        serializedVersion: 2
-        x: 1884
-        y: 40
-        width: 900
-        height: 229
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bd2af6f448259dd40800000000000000
-      internalID: 5609605539088540379
+      spriteID: 98914b2faa9d97f80800000000000000
+      internalID: -8108210325864310391
       vertices: []
       indices: 
       edges: []
@@ -190,7 +140,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: e30d531e97058634b858d2ad389bf86f
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -200,9 +150,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Barre_Vie_Bleu_0: 1660846393650335355
-      Barre_Vie_Bleu_1: -7850436698891431199
-      Barre_Vie_Bleu_2: 5609605539088540379
+      Barre_Vie_Contour_0: -8108210325864310391
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
