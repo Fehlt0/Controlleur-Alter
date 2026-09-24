@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: d70dc43e5a327684cb453ac6dc4710d3
+guid: 5eed3a8feb493a54d97ebdf09bbce634
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8230356979341214886
-    second: frameBlue03_0
-  - first:
-      213: -6757769397731152274
-    second: frameBlue03_1
+      213: 4778056131439004470
+    second: frameBlue01_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -118,45 +115,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: frameBlue03_0
+      name: frameBlue01_0
       rect:
         serializedVersion: 2
-        x: 397
+        x: 935
         y: 152
-        width: 436
+        width: 249
         height: 484
-      alignment: 9
-      pivot: {x: 0.008622265, y: 0.004347147}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6a44a40011a183270800000000000000
-      internalID: 8230356979341214886
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: frameBlue03_1
-      rect:
-        serializedVersion: 2
-        x: 831
-        y: 325
-        width: 10
-        height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e6eaa3679849732a0800000000000000
-      internalID: -6757769397731152274
+      spriteID: 63b8c4f7cb01f4240800000000000000
+      internalID: 4778056131439004470
       vertices: []
       indices: 
       edges: []
@@ -165,7 +140,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: e950940a41915cd49b13dcf4eb26dab2
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -175,8 +150,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      frameBlue03_0: 8230356979341214886
-      frameBlue03_1: -6757769397731152274
+      frameBlue01_0: 4778056131439004470
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
