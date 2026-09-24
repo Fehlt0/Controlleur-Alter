@@ -169,4 +169,16 @@ public class UIManager : MonoBehaviour
         player1Win.gameObject.SetActive(false);
         GameManager.instance.RestartGame();
     }
+
+    public void ResetLife()
+    {
+        foreach (var VARIABLE in player1LifeUI)
+        {
+            VARIABLE.sprite = heartFilled;
+        }
+        foreach (var VARIABLE in player2LifeUI)
+        {
+            VARIABLE.sprite = heartFilled;
+        }
+    }
 }

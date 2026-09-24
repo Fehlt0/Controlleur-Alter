@@ -1707,7 +1707,8 @@ MonoBehaviour:
   - {fileID: 529131260}
   - {fileID: 1854466137}
   - {fileID: 259607079}
-  player1LifeUI: []
+  player1LifeUI:
+  - {fileID: 0}
   player2LifeUI: []
   heartFilled: {fileID: 0}
   heartEmpty: {fileID: 0}

@@ -56,5 +56,6 @@ public class GameManager : MonoBehaviour
     {
         Debug.Log("Game Restarting");
         rideauSliding.SwitchTargetToCenter();
+        UIManager.instance.ResetLife();
     }
 }

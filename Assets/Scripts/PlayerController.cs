@@ -83,7 +83,6 @@ public class PlayerController : MonoBehaviour
     //C'EST LA QU'IL FAUT MODIF PUR LA POMPE LA
     //C'EST LA QU'IL FAUT MODIF PUR LA POMPE LA
     //C'EST LA QU'IL FAUT MODIF PUR LA POMPE LA
-
     public void OnInteract(InputAction.CallbackContext context)
     {
         if (context.started && GameManager.instance.gameState == GameManager.GameState.Playing && playerState != PlayerState.won && playerState != PlayerState.lose)
