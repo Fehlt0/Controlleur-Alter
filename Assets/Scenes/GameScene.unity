@@ -1709,9 +1709,28 @@ MonoBehaviour:
   - {fileID: 259607079}
   player1LifeUI:
   - {fileID: 0}
-  player2LifeUI: []
-  heartFilled: {fileID: 0}
-  heartEmpty: {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  player2LifeUI:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  heartFilled: {fileID: -193766502578013896, guid: 1aaef57b7868cfb48bf001483cb43597, type: 3}
+  heartEmpty: {fileID: -5761009581055181019, guid: 48d57ee46ca71d743bda62dcc3ff11d6, type: 3}
   timerImage: {fileID: 576784025}
   listTimerSprite:
   - {fileID: -855298285791758126, guid: 505414205a0b7b2479dc6467f180584f, type: 3}
