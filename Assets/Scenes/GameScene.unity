@@ -2628,10 +2628,10 @@ MonoBehaviour:
   heartEmpty: {fileID: -5761009581055181019, guid: 48d57ee46ca71d743bda62dcc3ff11d6, type: 3}
   timerImage: {fileID: 576784025}
   listTimerSprite:
-  - {fileID: -855298285791758126, guid: 505414205a0b7b2479dc6467f180584f, type: 3}
-  - {fileID: 6937817954938267909, guid: 40681918c8f5a99418a5e65c6bb6b667, type: 3}
-  - {fileID: -8583624080851226831, guid: c514f1fb764aa2d4d8497580c84b0ba1, type: 3}
-  - {fileID: 5088316998373936774, guid: 4b9c363322f2e8e469c6f66600cc5ddd, type: 3}
+  - {fileID: -855298285791758126, guid: 834e729f3b456ae41b3d0640c0bc5ec6, type: 3}
+  - {fileID: 6937817954938267909, guid: 4e5a3f3337440904ba4c5c762c78d7a4, type: 3}
+  - {fileID: -2817428056211571440, guid: 1a037465d46eabf468a9ccb1e64071dd, type: 3}
+  - {fileID: -6470460504253458178, guid: ac7126955532e3249b3a075dc5c15735, type: 3}
   player1Win: {fileID: 681667953}
   player2Win: {fileID: 809492030}
   player1Win_anim: {fileID: 0}
@@ -7070,7 +7070,6 @@ RectTransform:
   - {fileID: 576784027}
   - {fileID: 1820332270}
   - {fileID: 55008344}
-  - {fileID: 1476685198}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -8127,6 +8126,4 @@ SceneRoots:
   - {fileID: 1989802903}
   - {fileID: 681667956}
   - {fileID: 809492033}
-  - {fileID: 689127628}
-  - {fileID: 1279193399}
   - {fileID: 282188194}
