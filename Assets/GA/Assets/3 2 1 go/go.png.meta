@@ -105,10 +105,10 @@ TextureImporter:
       name: go_0
       rect:
         serializedVersion: 2
-        x: 25
-        y: 84
-        width: 695
-        height: 609
+        x: 119
+        y: 175
+        width: 520
+        height: 455
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
