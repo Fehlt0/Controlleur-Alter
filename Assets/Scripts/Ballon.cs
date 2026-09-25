@@ -52,12 +52,12 @@ public class Ballon : MonoBehaviour
         {
             AutoLaunch(launchTarget);
         }
-        
     }
 
 
     public void Gonfler()
     {
+        Debug.Log("Gonfler");
         if (state == State.gonfle)
         {
             inflation += 1f;
@@ -66,11 +66,12 @@ public class Ballon : MonoBehaviour
                 gonfleState++;
                 spriteRenderer.sprite = spriteBaloonGonfle[gonfleState];
             }
-            if (inflation > 21f)
+            if (inflation > 15f)
             {
                 float proba = Random.value;
-                if (proba <= (inflation / 7) / 10)
+                if (proba <= (inflation / 7) / 5)
                 {
+                    playerRef.LoseLife(inflation);
                     DestroyBaloon();
                 }
             }

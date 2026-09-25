@@ -35,8 +35,8 @@ public class UIManager : MonoBehaviour
     [SerializeField] private Image timerImage;
     [SerializeField] private List<Sprite> listTimerSprite;
 
-    [SerializeField] private Image player1Win;
-    [SerializeField] private Image player2Win;
+    [SerializeField] private GameObject player1Win;
+    [SerializeField] private GameObject player2Win;
     [SerializeField] private GameObject player1Win_anim;
     [SerializeField] private GameObject player2Win_anim;
 
@@ -139,14 +139,20 @@ public class UIManager : MonoBehaviour
         {
             for (int i = 0; i < hpLost; i+=10)
             {
-                player1LifeUI[i / 10].sprite = heartEmpty;
+                if (life>  0)
+                {
+                    player1LifeUI[i / 10].sprite = heartEmpty;
+                }
             }
         }
         else
         {
             for (int i = 0; i < hpLost; i+=10)
             {
-                player2LifeUI[i / 10].sprite = heartEmpty;
+                if (life > 0 )
+                {
+                    player2LifeUI[i / 10].sprite = heartEmpty;
+                }
             }
         }
     }
@@ -156,12 +162,12 @@ public class UIManager : MonoBehaviour
         switch (player)
         {
             case 0:
-                player2Win_anim.SetActive(true);
+                //player2Win_anim.SetActive(true);
                 player2Win.gameObject.SetActive(true);
                 StartCoroutine(WinTimer());
                 break;
             case 1:
-                player1Win_anim.SetActive(true);
+                //player1Win_anim.SetActive(true);
                 player1Win.gameObject.SetActive(true);
                 StartCoroutine(WinTimer());
                 break;

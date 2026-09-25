@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -16,8 +17,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Ballon baloonPrefab;
     [SerializeField] public Animator animator_blue_boom;
     [SerializeField] public Animator animator_red_boom;
-    [SerializeField] public GameObject BlueBoom;
-    [SerializeField] public GameObject RedBoom;
+    public GameObject BlueBoom;
+    public GameObject RedBoom;
 
     private enum PlayerState
     {
@@ -44,8 +45,10 @@ public class PlayerController : MonoBehaviour
         currentHP = maxHP;
         SpawnNewBaloon();
         ComboManager.instance.EnterPlayer(playerID, this);
-        animator_blue_boom = GetComponentInChildren<Animator>();
-        animator_red_boom = GetComponentInChildren<Animator>();
+        BlueBoom = GameManager.instance.BlueBoom;
+        RedBoom = GameManager.instance.RedBoom;
+        animator_blue_boom = BlueBoom.GetComponent<Animator>();
+        animator_red_boom = RedBoom.GetComponent<Animator>();
     }
 
     public void SpawnNewBaloon()
@@ -72,12 +75,31 @@ public class PlayerController : MonoBehaviour
         {
             BlueBoom.SetActive(true);
             animator_blue_boom.SetBool("IsHit", true);
+            StartCoroutine(BoomTimerReset(0));
         }
         else if (playerID == 1)
         {
             RedBoom.SetActive(true);
             animator_red_boom.SetBool("IsHit", true);
+            StartCoroutine(BoomTimerReset(1));
         }
+    }
+
+    private IEnumerator BoomTimerReset(int baloon)
+    {
+        yield return new WaitForSeconds(0.4f);
+        if (baloon == 0)
+        {
+            animator_blue_boom.SetBool("IsHit", false);
+            BlueBoom.SetActive(false);
+        }
+        else
+        {
+            animator_red_boom.SetBool("IsHit", false);
+            RedBoom.SetActive(false);
+        }
+        
+        
     }
 
     public void OnLaunchBaloon(InputAction.CallbackContext context)

@@ -1,11 +1,13 @@
 using System;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
     public Animator animator;
     public static GameManager instance;
-
+    
+    
     private void Awake()
     {
         if (instance != null)
@@ -23,6 +25,10 @@ public class GameManager : MonoBehaviour
     public GameState gameState;
 
     private RideauSliding rideauSliding;
+    
+    [SerializeField] public GameObject BlueBoom;
+    [SerializeField] public GameObject RedBoom;
+
 
     private void Start()
     {
@@ -37,7 +43,7 @@ public class GameManager : MonoBehaviour
     public void StartGame()
     {
         rideauSliding.SwitchTargetToCenter();
-        animator.SetBool("IsClosing", false);
+        animator.SetBool("IsClosing", true);
     }
 
     public void WinGame(int player)
@@ -61,7 +67,6 @@ public class GameManager : MonoBehaviour
     public void RestartGame()
     {
         Debug.Log("Game Restarting");
-        rideauSliding.SwitchTargetToCenter();
-        UIManager.instance.ResetLife();
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }
