@@ -25,7 +25,7 @@ Transform:
   m_GameObject: {fileID: 6588825764485726259}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2, y: 0, z: 0}
+  m_LocalPosition: {x: -2, y: -1.2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -324,6 +324,10 @@ MonoBehaviour:
   playerID: 0
   baloonSpawnPosition: {fileID: 5592595790333649338}
   baloonPrefab: {fileID: -7319620349504812680, guid: f77977f6b3175c94b9ccbfc9c185dc40, type: 3}
+  animator_blue_boom: {fileID: 0}
+  animator_red_boom: {fileID: 0}
+  BlueBoom: {fileID: 0}
+  RedBoom: {fileID: 0}
 --- !u!61 &-1335083023406240256
 BoxCollider2D:
   m_ObjectHideFlags: 0

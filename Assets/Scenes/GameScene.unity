@@ -1081,7 +1081,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Unity.Media.Osc.Components::Unity.Media.Osc.OscMessageHandler
   m_Receiver: {fileID: 348229970}
-  m_Address: /boutton
+  m_Address: /scaleP1
   m_Arguments:
   - rid: 5676117025662435530
   references:
@@ -1136,7 +1136,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Unity.Media.Osc.Components::Unity.Media.Osc.OscMessageHandler
   m_Receiver: {fileID: 348229970}
-  m_Address: /OSCManager
+  m_Address: /scaleP2
   m_Arguments:
   - rid: 378441465835815000
   references:
